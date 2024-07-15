@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>How vim helped me code faster</title>
+    <meta name="description" content="Design, develop, disrupt.">
+    <meta name="keywords" content='blog, techblog, Ignacio, Illanes, Bequer, vim, neovim, coding, productivity, setup'>
+
+    <meta property="og:url" content="http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="How vim helped me code faster">
+    <meta property="og:description" content="Design, develop, disrupt.">
+    <meta property="og:image" content="http://localhost:1313/images/avatar.jpeg">
+    <meta property="og:image:secure_url" content="http://localhost:1313/images/avatar.jpeg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How vim helped me code faster">
+    <meta name="twitter:description" content="Design, develop, disrupt.">
+    <meta property="twitter:domain" content="http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/">
+    <meta property="twitter:url" content="http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/">
+    <meta name="twitter:image" content="http://localhost:1313/images/avatar.jpeg">
+
+    
+    <link rel="canonical" href="http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.9a920d7dabdbad8363b6a0a94e29a9dfebdb7ee64cfcb193a0145e512ef2bdab.js" integrity="sha256-mpINfavbrYNjtqCpTimp3&#43;vbfuZM/LGToBReUS7yvas="></script>
+
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="http://localhost:1313/">
+                <img src='/images/avatar.jpeg' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="http://localhost:1313/">Ignacio Illanes Bequer</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/posts/"> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/tags/"> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target"></span>
+                <a>
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/posts/"> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/tags/"> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a>
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>How vim helped me code faster</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">July 14, 2024
+        
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/vim">vim</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/neovim">neovim</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/coding">coding</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/productivity">productivity</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:1313/tags/setup">setup</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <h2 id="coding-in-my-early-days">Coding in my early days</h2>
+<p>Ever since I started coding, I&rsquo;ve always been looking for ways to improve my workflow. I&rsquo;ve tried many different editors and IDEs, but I never really found one that I was completely satisfied with.
+That is until I discovered vim.</p>
+<p>Not only is vim extremely powerful and customizable, but it also has a very active community that is constantly creating new plugins and tools to make coding even faster and more efficient.</p>
+<h2 id="how-i-got-started-with-vim">How I got started with vim</h2>
+<p>It all started when I was working on a project with a raspberry pi that one of my dear cousins gave me as a gift for my 16th birthday. I had to edit some configuration files following a tutorial I found online,
+back then I didn&rsquo;t know much about computers, so I was just following the steps without really understanding what I was doing. That is until I stumbled upon vim. At first, as every vim beginner, I didn&rsquo;t know how
+to save or exit the editor, so I just ended up unplugging the raspberry pi and starting over.</p>
+<p>I felt so defeated by this editor that I decided to never use it again.</p>
+<figure>
+    <img src="images/meme.jpg" alt="first-timer vim experience" width="400" /> 
+    <center>
+        <figcaption>first-timer vim experience</figcaption>
+    </center>
+</figure>
+<h2 id="discovering-theprimeagen">Discovering ThePrimeagen</h2>
+<p>Fast forward to 2022, I was watching some youtube videos about coding and I found this guy called ThePrimeagen. He was talking about some programming stuff and then he started talking about vim. I was astonished by
+how fast he could navigate through files and how he could do everything without ever touching the mouse that I thought it was all staged. I was on summer break from university, so I decided to give vim another try.</p>
+<figure>
+    <img src="images/theprimeagen.gif" alt="ThePrimeagen coding" width="600" /> 
+    <center>
+        <figcaption>ThePrimeagen coding</figcaption>
+    </center>
+</figure>
+<p>However ThePrimeagen&rsquo;s vim looked a bit strange for me, It has a LSP, syntax highlighting, and a lot of other stuff that mine didn&rsquo;t have. So I started looking for some tutorials on how to customize vim and I found out
+about neovim.</p>
+<h2 id="neovim">Neovim</h2>
+<p>Neovim is a fork of vim that is focused on extensibility and usability. It has a lot of new features that make it easier to customize and extend, such as built-in LSP support, tree-sitter syntax highlighting and
+a bunch of other stuff that you can extend with plugins.</p>
+<p>The main difference between vim and neovim is that vim uses vimscript, a language that is not very friendly to new users, while neovim uses lua, a language that is much easier to learn and use.</p>
+<h2 id="setting-up-neovim">Setting up neovim</h2>
+<p>This setup is based on my personal preferences and workflow, so feel free to customize it to fit your needs.</p>
+<h3 id="1-installation">1. Installation</h3>
+<p>For this setup, I used a package manager called <a href="https://brew.sh/"> homebrew </a>, but you can use any package manager you want or check the <a href="https://neovim.io/"> official neovim page </a> for installation instructions.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install neovim
+</span></span></code></pre></div><h4 id="11-remove-old-configuration-optional">1.1 Remove old configuration (OPTIONAL)</h4>
+<p>If you&rsquo;re coming from vim or have an old neovim configuration, you might want to remove it before setting up this new one:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rm ~/.config/nvim/
+</span></span></code></pre></div><p>Alternatively, you can just backup your old configuration and move it to another folder:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mv ~/.config/nvim/ ~/.config/nvim.bak
+</span></span></code></pre></div><p>Remove plugins cache:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rm ~/.local/share/nvim
+</span></span></code></pre></div><h3 id="2-configuration">2. Configuration</h3>
+<p>Navigate to your nvim configuration in <strong>~/.config/nvim/</strong> the configuration structure is as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>├── lua
+</span></span><span style="display:flex;"><span>│   └── ignacioillanes
+</span></span><span style="display:flex;"><span>│       ├── core
+</span></span><span style="display:flex;"><span>│       │   ├── init.lua
+</span></span><span style="display:flex;"><span>│       │   ├── keymaps.lua
+</span></span><span style="display:flex;"><span>│       │   └── options.lua
+</span></span><span style="display:flex;"><span>│       ├── plugins
+</span></span><span style="display:flex;"><span>│       │   ├── init.lua
+</span></span><span style="display:flex;"><span>│       └── lazy.lua
+</span></span><span style="display:flex;"><span>└── init.lua
+</span></span></code></pre></div><p>Go ahead and create the folders and files if they don&rsquo;t exist.</p>
+<p>Now navigate to the <strong>init.lua</strong> at the root of the configuration and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span>require(<span style="color:#e6db74">&#34;ignacioillanes.core&#34;</span>)
+</span></span><span style="display:flex;"><span>require(<span style="color:#e6db74">&#34;ignacioillanes.lazy&#34;</span>)
+</span></span></code></pre></div><p>Go to <strong>lua/ignacioillanes/core/init.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span>require(<span style="color:#e6db74">&#34;ignacioillanes.core.options&#34;</span>)
+</span></span><span style="display:flex;"><span>require(<span style="color:#e6db74">&#34;ignacioillanes.core.keymaps&#34;</span>)
+</span></span></code></pre></div><h4 id="lazynvim-installation">Lazy.nvim installation</h4>
+<p>We&rsquo;re going to use <a href="https://lazy.folke.io/"> lazy.nvim </a> to load the plugins only when we need them, so go to <strong>lua/ignacioillanes/lazy.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#75715e">-- Bootstrap lazy.nvim</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">local</span> lazypath <span style="color:#f92672">=</span> vim.fn.stdpath(<span style="color:#e6db74">&#34;data&#34;</span>) <span style="color:#f92672">..</span> <span style="color:#e6db74">&#34;/lazy/lazy.nvim&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> (vim.uv <span style="color:#f92672">or</span> vim.loop).fs_stat(lazypath) <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">local</span> lazyrepo <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://github.com/folke/lazy.nvim.git&#34;</span>
+</span></span><span style="display:flex;"><span>  vim.fn.system({ <span style="color:#e6db74">&#34;git&#34;</span>, <span style="color:#e6db74">&#34;clone&#34;</span>, <span style="color:#e6db74">&#34;--filter=blob:none&#34;</span>, <span style="color:#e6db74">&#34;--branch=stable&#34;</span>, lazyrepo, lazypath })
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>vim.opt.rtp:prepend(lazypath)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- Load lazy.nvim</span>
+</span></span><span style="display:flex;"><span>require(<span style="color:#e6db74">&#34;lazy&#34;</span>).setup({ { import <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ignacioillanes.plugins&#34;</span> }, { import <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ignacioillanes.plugins.lsp&#34;</span> } }, {
+</span></span><span style="display:flex;"><span>  checker <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    enabled <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>    notify <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  change_detection <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    notify <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>})
+</span></span></code></pre></div><p>This will install lazy.nvim if it&rsquo;s not already installed and load the plugins when you need them.</p>
+<h4 id="core-configuration">Core configuration</h4>
+<p>Now go to <strong>lua/ignacioillanes/core/options.lua</strong> and paste the following code:</p>
+<h5 id="options">Options</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">local</span> opt <span style="color:#f92672">=</span> vim.opt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>opt.relativenumber <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>opt.number <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- tabs and indentation</span>
+</span></span><span style="display:flex;"><span>opt.tabstop <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>opt.shiftwidth <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>opt.expandtab <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>opt.autoindent <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>opt.smartindent <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- line wraping</span>
+</span></span><span style="display:flex;"><span>opt.wrap <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- search settings</span>
+</span></span><span style="display:flex;"><span>opt.ignorecase <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>opt.smartcase <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>opt.cursorline <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- appearance</span>
+</span></span><span style="display:flex;"><span>opt.termguicolors <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>opt.background <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;dark&#34;</span>
+</span></span><span style="display:flex;"><span>opt.signcolumn <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;yes&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- backspace</span>
+</span></span><span style="display:flex;"><span>opt.backspace <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;indent,eol,start&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">--clipboard</span>
+</span></span><span style="display:flex;"><span>opt.clipboard:append(<span style="color:#e6db74">&#34;unnamedplus&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- split windows</span>
+</span></span><span style="display:flex;"><span>opt.splitright <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>opt.splitbelow <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- On exit changes cursor from vertical bar to vertical line</span>
+</span></span><span style="display:flex;"><span>vim.cmd(<span style="color:#e6db74">[[
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  augroup RestoreCursorShapeOnExit
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    autocmd!
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    autocmd VimLeave * set guicursor=a:ver25-iCursor
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  augroup END
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">]]</span>)
+</span></span></code></pre></div><p>This are some basic options that I like to have in my editor, feel free to customize them to fit your needs.</p>
+<h5 id="keymaps">keymaps</h5>
+<p>Navigate to <strong>lua/ignacioillanes/core/keymaps.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span>vim.g.mapleader <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; &#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">local</span> keymap <span style="color:#f92672">=</span> vim.keymap
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- general keymaps</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- remap ESC key</span>
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;i&#34;</span>, <span style="color:#e6db74">&#34;tn&#34;</span>, <span style="color:#e6db74">&#34;&lt;ESC&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Exit insert mode with tn&#34;</span> })
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;v&#34;</span>, <span style="color:#e6db74">&#34;tn&#34;</span>, <span style="color:#e6db74">&#34;&lt;ESC&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Exit visual mode with tn&#34;</span> })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- search highlights</span>
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;nh&#34;</span>, <span style="color:#e6db74">&#34;:nohl&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Clear search highlights&#34;</span> })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- window management</span>
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;sv&#34;</span>, <span style="color:#e6db74">&#34;&lt;C-w&gt;v&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;split window vertically&#34;</span> })
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;sh&#34;</span>, <span style="color:#e6db74">&#34;&lt;C-w&gt;s&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;split window horizontally&#34;</span> })
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;se&#34;</span>, <span style="color:#e6db74">&#34;&lt;C-w&gt;=&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;make split windows equal width &amp; height&#34;</span> })
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;sx&#34;</span>, <span style="color:#e6db74">&#34;:close&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;close current split window&#34;</span> })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- tab management</span>
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;to&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;tabnew&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Open new tab&#34;</span> })
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;tx&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;tabclose&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Close current tab&#34;</span> })
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;tn&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;tabn&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Go to next tab&#34;</span> })
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;tp&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;tabp&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Go to previous tab&#34;</span> })
+</span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;tf&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;tabnew %&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Open current buffer in new tab&#34;</span> })
+</span></span></code></pre></div><p>Here I&rsquo;m setting some basic keymaps that I like to have in my editor, I&rsquo;m also setting the leader key to the space bar, this is a personal preference, feel free to change it to whatever you like.</p>
+<h4 id="plugins">Plugins</h4>
+<p>Navigate to <strong>lua/ignacioillanes/plugins/init.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;nvim-lua/plenary.nvim&#34;</span>, <span style="color:#75715e">-- lua functions that many plugins use</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;christoomey/vim-tmux-navigator&#34;</span>, <span style="color:#75715e">-- tmux &amp; split wv svndow navigation</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Here I&rsquo;m loading some plugins that don&rsquo;t need any configuration, you can add more plugins here if you want.</p>
+<blockquote>
+<p>After many iterations, I&rsquo;ve found that the best way to manage plugins is to create a separate file for each plugin, this way you can easily enable or disable them.</p>
+</blockquote>
+<p>Now create a new file called <strong>lua/ignacioillanes/plugins/colorscheme.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;bluz71/vim-moonfly-colors&#34;</span>,
+</span></span><span style="display:flex;"><span>  priority <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>,
+</span></span><span style="display:flex;"><span>  config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- colorscheme configuration</span>
+</span></span><span style="display:flex;"><span>    vim.g.moonflyTransparent <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>    vim.g.moonflyItalics <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>    vim.g.moonflyUndercurls <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>    vim.g.moonflyUnderlineMatchParen <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- load colorscheme</span>
+</span></span><span style="display:flex;"><span>    vim.cmd(<span style="color:#e6db74">&#34;colorscheme moonfly&#34;</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This will load the moonfly colorscheme and set some configuration options</p>
+<p>Create a new file called <strong>lua/ignacioillanes/plugins/auto-session.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;rmagatti/auto-session&#34;</span>,
+</span></span><span style="display:flex;"><span>  config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> ()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> auto_session <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;auto-session&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    auto_session.setup({
+</span></span><span style="display:flex;"><span>      auto_restore_enabled <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>      auto_session_suppress_dirs <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;~/&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;~/workspace&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;~/Downloads&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;~/Documents&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;~/Desktop&#34;</span>,
+</span></span><span style="display:flex;"><span>      },
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- set keymaps</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> keymap <span style="color:#f92672">=</span> vim.keymap
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;sr&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;SessionRestore&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Restore session for cwd&#34;</span> })
+</span></span><span style="display:flex;"><span>    keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;ss&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;SessionSave&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Save session&#34;</span> })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/autopairs.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;windwp/nvim-autopairs&#34;</span>,
+</span></span><span style="display:flex;"><span>  event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;InsertEnter&#34;</span> },
+</span></span><span style="display:flex;"><span>  dependencies <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;hrsh7th/nvim-cmp&#34;</span>,
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- import nvim-autopairs</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> autopairs <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;nvim-autopairs&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- configure autopairs</span>
+</span></span><span style="display:flex;"><span>    autopairs.setup({
+</span></span><span style="display:flex;"><span>      check_ts <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>, <span style="color:#75715e">-- enable treesitter</span>
+</span></span><span style="display:flex;"><span>      ts_config <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>        lua <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;string&#34;</span> }, <span style="color:#75715e">-- don&#39;t add pairs in lua string treesitter nodes</span>
+</span></span><span style="display:flex;"><span>        javascript <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;template_string&#34;</span> }, <span style="color:#75715e">-- don&#39;t add pairs in javscript template_string treesitter nodes</span>
+</span></span><span style="display:flex;"><span>        java <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>, <span style="color:#75715e">-- don&#39;t check treesitter on java</span>
+</span></span><span style="display:flex;"><span>      },
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- import nvim-autopairs completion functionality</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> cmp_autopairs <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;nvim-autopairs.completion.cmp&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- import nvim-cmp plugin (completions plugin)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> cmp <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;cmp&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- make autopairs and completion work together</span>
+</span></span><span style="display:flex;"><span>    cmp.event:on(<span style="color:#e6db74">&#34;confirm_done&#34;</span>, cmp_autopairs.on_confirm_done())
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/bufferline.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;akinsho/bufferline.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>  dependencies <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;nvim-tree/nvim-web-devicons&#34;</span> },
+</span></span><span style="display:flex;"><span>  version <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;*&#34;</span>,
+</span></span><span style="display:flex;"><span>  opts <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    options <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>      mode <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;tabs&#34;</span>,
+</span></span><span style="display:flex;"><span>      separator_style <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;thin&#34;</span>,
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="lsp">LSP</h4>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    
+</div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#coding-in-my-early-days">Coding in my early days</a></li>
+        <li><a href="#how-i-got-started-with-vim">How I got started with vim</a></li>
+        <li><a href="#discovering-theprimeagen">Discovering ThePrimeagen</a></li>
+        <li><a href="#neovim">Neovim</a></li>
+        <li><a href="#setting-up-neovim">Setting up neovim</a>
+          <ul>
+            <li><a href="#1-installation">1. Installation</a>
+              <ul>
+                <li><a href="#11-remove-old-configuration-optional">1.1 Remove old configuration (OPTIONAL)</a></li>
+              </ul>
+            </li>
+            <li><a href="#2-configuration">2. Configuration</a>
+              <ul>
+                <li><a href="#lazynvim-installation">Lazy.nvim installation</a></li>
+                <li><a href="#core-configuration">Core configuration</a></li>
+                <li><a href="#plugins">Plugins</a></li>
+                <li><a href="#lsp">LSP</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+    <span>&copy; 2024 Ignacio Illanes Bequer</span>
+    
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

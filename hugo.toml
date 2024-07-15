@@ -21,7 +21,7 @@ enableRobotsTXT = true
   accentColor = "#FF4D4D"
 
   # Display "back to top" button on posts
-  ShowBackToTopButton = true
+  ShowBackToTopButton = false
 
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
@@ -37,6 +37,15 @@ enableRobotsTXT = true
 
   # Footer text
   footer = "Ignacio Illanes Bequer"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true # Allow HTML in md files
+
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
 
 [menu]
   [[menu.main]]
