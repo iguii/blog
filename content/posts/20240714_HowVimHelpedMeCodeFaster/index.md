@@ -1,7 +1,7 @@
 +++
 title = 'How vim helped me code faster'
 date = 2024-07-14T13:14:53-03:00
-draft = true
+draft = false
 type = 'post'
 showTableOfContents = true
 tags = ['vim', 'neovim', 'coding', 'productivity', 'setup']
