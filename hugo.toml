@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ignacioillanes.netlify.app/'
 defaultContentLanguage = "en"
 languageCode = 'en-us'
 title = 'Ignacio Illanes Bequer'
