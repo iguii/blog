@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,22 +21,22 @@
     <meta name="description" content="Design, develop, disrupt.">
     <meta name="keywords" content='blog, techblog, Ignacio, Illanes, Bequer, vim, neovim, coding, productivity, setup'>
 
-    <meta property="og:url" content="http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/">
+    <meta property="og:url" content="http://ignacioillanes.tech/posts/20240714_howvimhelpedmecodefaster/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="How vim helped me code faster">
     <meta property="og:description" content="Design, develop, disrupt.">
-    <meta property="og:image" content="http://localhost:1313/images/avatar.jpeg">
-    <meta property="og:image:secure_url" content="http://localhost:1313/images/avatar.jpeg">
+    <meta property="og:image" content="http://ignacioillanes.tech/images/avatar.jpeg">
+    <meta property="og:image:secure_url" content="http://ignacioillanes.tech/images/avatar.jpeg">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="How vim helped me code faster">
     <meta name="twitter:description" content="Design, develop, disrupt.">
-    <meta property="twitter:domain" content="http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/">
-    <meta property="twitter:url" content="http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/">
-    <meta name="twitter:image" content="http://localhost:1313/images/avatar.jpeg">
+    <meta property="twitter:domain" content="http://ignacioillanes.tech/posts/20240714_howvimhelpedmecodefaster/">
+    <meta property="twitter:url" content="http://ignacioillanes.tech/posts/20240714_howvimhelpedmecodefaster/">
+    <meta name="twitter:image" content="http://ignacioillanes.tech/images/avatar.jpeg">
 
     
-    <link rel="canonical" href="http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/">
+    <link rel="canonical" href="http://ignacioillanes.tech/posts/20240714_howvimhelpedmecodefaster/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -62,24 +62,24 @@
 
         
         <div class="avatar">
-            <a href="http://localhost:1313/">
+            <a href="http://ignacioillanes.tech/">
                 <img src='/images/avatar.jpeg' alt="avatar">
             </a>
         </div>
         
 
         <div class="nav-title">
-            <a class="nav-brand" href="http://localhost:1313/">Ignacio Illanes Bequer</a>
+            <a class="nav-brand" href="http://ignacioillanes.tech/">Ignacio Illanes Bequer</a>
         </div>
 
         <div class="nav-links">
             
             <div class="nav-link">
-                <a href="http://localhost:1313/posts/"> Posts </a>
+                <a href="http://ignacioillanes.tech/posts/"> Posts </a>
             </div>
             
             <div class="nav-link">
-                <a href="http://localhost:1313/tags/"> Tags </a>
+                <a href="http://ignacioillanes.tech/tags/"> Tags </a>
             </div>
             
             <div class="nav-link">
@@ -106,11 +106,11 @@
             <ul class="nav-hamburger-list visibility-hidden">
                 
                 <li class="nav-item">
-                    <a href="http://localhost:1313/posts/"> Posts </a>
+                    <a href="http://ignacioillanes.tech/posts/"> Posts </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="http://localhost:1313/tags/"> Tags </a>
+                    <a href="http://ignacioillanes.tech/tags/"> Tags </a>
                 </li>
                 
                 <li class="nav-item">
@@ -139,15 +139,15 @@
 
         <ul class="post-tags">
         
-            <li class="post-tag"><a href="http://localhost:1313/tags/vim">vim</a></li>
+            <li class="post-tag"><a href="http://ignacioillanes.tech/tags/vim">vim</a></li>
         
-            <li class="post-tag"><a href="http://localhost:1313/tags/neovim">neovim</a></li>
+            <li class="post-tag"><a href="http://ignacioillanes.tech/tags/neovim">neovim</a></li>
         
-            <li class="post-tag"><a href="http://localhost:1313/tags/coding">coding</a></li>
+            <li class="post-tag"><a href="http://ignacioillanes.tech/tags/coding">coding</a></li>
         
-            <li class="post-tag"><a href="http://localhost:1313/tags/productivity">productivity</a></li>
+            <li class="post-tag"><a href="http://ignacioillanes.tech/tags/productivity">productivity</a></li>
         
-            <li class="post-tag"><a href="http://localhost:1313/tags/setup">setup</a></li>
+            <li class="post-tag"><a href="http://ignacioillanes.tech/tags/setup">setup</a></li>
         
         </ul>
     </div>
@@ -188,7 +188,7 @@ a bunch of other stuff that you can extend with plugins.</p>
 <h3 id="1-installation">1. Installation</h3>
 <p>For this setup, I used a package manager called <a href="https://brew.sh/"> homebrew </a>, but you can use any package manager you want or check the <a href="https://neovim.io/"> official neovim page </a> for installation instructions.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install neovim
-</span></span></code></pre></div><h4 id="11-remove-old-configuration-optional">1.1 Remove old configuration (OPTIONAL)</h4>
+</span></span></code></pre></div><h4 id="11-remove-old-configuration-optional">1.1. Remove old configuration (OPTIONAL)</h4>
 <p>If you&rsquo;re coming from vim or have an old neovim configuration, you might want to remove it before setting up this new one:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rm ~/.config/nvim/
 </span></span></code></pre></div><p>Alternatively, you can just backup your old configuration and move it to another folder:</p>
@@ -214,7 +214,7 @@ a bunch of other stuff that you can extend with plugins.</p>
 </span></span></code></pre></div><p>Go to <strong>lua/ignacioillanes/core/init.lua</strong> and paste the following code:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span>require(<span style="color:#e6db74">&#34;ignacioillanes.core.options&#34;</span>)
 </span></span><span style="display:flex;"><span>require(<span style="color:#e6db74">&#34;ignacioillanes.core.keymaps&#34;</span>)
-</span></span></code></pre></div><h4 id="lazynvim-installation">Lazy.nvim installation</h4>
+</span></span></code></pre></div><h4 id="21-lazynvim-installation">2.1. Lazy.nvim installation</h4>
 <p>We&rsquo;re going to use <a href="https://lazy.folke.io/"> lazy.nvim </a> to load the plugins only when we need them, so go to <strong>lua/ignacioillanes/lazy.lua</strong> and paste the following code:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#75715e">-- Bootstrap lazy.nvim</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">local</span> lazypath <span style="color:#f92672">=</span> vim.fn.stdpath(<span style="color:#e6db74">&#34;data&#34;</span>) <span style="color:#f92672">..</span> <span style="color:#e6db74">&#34;/lazy/lazy.nvim&#34;</span>
@@ -235,7 +235,7 @@ a bunch of other stuff that you can extend with plugins.</p>
 </span></span><span style="display:flex;"><span>  },
 </span></span><span style="display:flex;"><span>})
 </span></span></code></pre></div><p>This will install lazy.nvim if it&rsquo;s not already installed and load the plugins when you need them.</p>
-<h4 id="core-configuration">Core configuration</h4>
+<h4 id="22-core-configuration">2.2. Core configuration</h4>
 <p>Now go to <strong>lua/ignacioillanes/core/options.lua</strong> and paste the following code:</p>
 <h5 id="options">Options</h5>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">local</span> opt <span style="color:#f92672">=</span> vim.opt
@@ -309,7 +309,7 @@ a bunch of other stuff that you can extend with plugins.</p>
 </span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;tp&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;tabp&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Go to previous tab&#34;</span> })
 </span></span><span style="display:flex;"><span>keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;tf&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;tabnew %&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Open current buffer in new tab&#34;</span> })
 </span></span></code></pre></div><p>Here I&rsquo;m setting some basic keymaps that I like to have in my editor, I&rsquo;m also setting the leader key to the space bar, this is a personal preference, feel free to change it to whatever you like.</p>
-<h4 id="plugins">Plugins</h4>
+<h4 id="23-plugins">2.3. Plugins</h4>
 <p>Navigate to <strong>lua/ignacioillanes/plugins/init.lua</strong> and paste the following code:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
 </span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;nvim-lua/plenary.nvim&#34;</span>, <span style="color:#75715e">-- lua functions that many plugins use</span>
@@ -403,7 +403,711 @@ a bunch of other stuff that you can extend with plugins.</p>
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h4 id="lsp">LSP</h4>
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/colorizer.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;norcalli/nvim-colorizer.lua&#34;</span>,
+</span></span><span style="display:flex;"><span>	event <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;BufRead&#34;</span>,
+</span></span><span style="display:flex;"><span>	config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>		require(<span style="color:#e6db74">&#34;colorizer&#34;</span>).setup()
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/comment.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;numToStr/Comment.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>  event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;BufReadPre&#34;</span>, <span style="color:#e6db74">&#34;BufNewFile&#34;</span> },
+</span></span><span style="display:flex;"><span>  dependencies <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;JoosepAlviste/nvim-ts-context-commentstring&#34;</span>,
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- import comment plugin safely</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> comment <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;Comment&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> ts_context_commentstring <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;ts_context_commentstring.integrations.comment_nvim&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- enable comment</span>
+</span></span><span style="display:flex;"><span>    comment.setup({
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">-- for commenting tsx, jsx, svelte, html files</span>
+</span></span><span style="display:flex;"><span>      pre_hook <span style="color:#f92672">=</span> ts_context_commentstring.create_pre_hook(),
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/copilot.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;github/copilot.vim&#34;</span>,
+</span></span><span style="display:flex;"><span>	event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;BufRead&#34;</span>, <span style="color:#e6db74">&#34;BufNewFile&#34;</span> },
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/dressing.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;stevearc/dressing.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>  event <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;VeryLazy&#34;</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/flutter-tools.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;akinsho/flutter-tools.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>	lazy <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>	dependencies <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;nvim-lua/plenary.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;stevearc/dressing.nvim&#34;</span>, <span style="color:#75715e">-- optional for vim.ui.select</span>
+</span></span><span style="display:flex;"><span>	},
+</span></span><span style="display:flex;"><span>	config <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/formatting.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;stevearc/conform.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>	event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;BufReadPre&#34;</span>, <span style="color:#e6db74">&#34;BufNewFile&#34;</span> },
+</span></span><span style="display:flex;"><span>	config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> conform <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;conform&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		conform.setup({
+</span></span><span style="display:flex;"><span>			formatters_by_ft <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				javascript <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				typescript <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				javascriptreact <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				typescriptreact <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				svelte <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				css <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				html <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				json <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				yaml <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				markdown <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				graphql <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				liquid <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;prettier&#34;</span> },
+</span></span><span style="display:flex;"><span>				lua <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;stylua&#34;</span> },
+</span></span><span style="display:flex;"><span>				python <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;isort&#34;</span>, <span style="color:#e6db74">&#34;black&#34;</span> },
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>			format_on_save <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				lsp_fallback <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>				async <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>				timeout_ms <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>,
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>		})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		vim.keymap.set({ <span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;v&#34;</span> }, <span style="color:#e6db74">&#34;&lt;leader&gt;mp&#34;</span>, <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>			conform.format({
+</span></span><span style="display:flex;"><span>				lsp_fallback <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>				async <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>				timeout_ms <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>,
+</span></span><span style="display:flex;"><span>			})
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">end</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Format file or range (in visual mode)&#34;</span> })
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/indent-blankline.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;lukas-reineke/indent-blankline.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>  event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;BufReadPre&#34;</span>, <span style="color:#e6db74">&#34;BufNewFile&#34;</span> },
+</span></span><span style="display:flex;"><span>  main <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ibl&#34;</span>,
+</span></span><span style="display:flex;"><span>  opts <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    indent <span style="color:#f92672">=</span> { char <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;┊&#34;</span> }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/leap.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;ggandor/leap.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>	event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;BufRead&#34;</span>, <span style="color:#e6db74">&#34;BufNewFile&#34;</span> },
+</span></span><span style="display:flex;"><span>	config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> keymap <span style="color:#f92672">=</span> vim.keymap
+</span></span><span style="display:flex;"><span>		keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;s&#34;</span>, <span style="color:#e6db74">&#34;&lt;Plug&gt;(leap)&#34;</span>)
+</span></span><span style="display:flex;"><span>		keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;S&#34;</span>, <span style="color:#e6db74">&#34;&lt;Plug&gt;(leap-from-window)&#34;</span>)
+</span></span><span style="display:flex;"><span>		keymap.set({ <span style="color:#e6db74">&#34;x&#34;</span>, <span style="color:#e6db74">&#34;o&#34;</span> }, <span style="color:#e6db74">&#34;s&#34;</span>, <span style="color:#e6db74">&#34;&lt;Plug&gt;(leap-forward)&#34;</span>)
+</span></span><span style="display:flex;"><span>		keymap.set({ <span style="color:#e6db74">&#34;x&#34;</span>, <span style="color:#e6db74">&#34;o&#34;</span> }, <span style="color:#e6db74">&#34;S&#34;</span>, <span style="color:#e6db74">&#34;&lt;Plug&gt;(leap-backward)&#34;</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/linting.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;mfussenegger/nvim-lint&#34;</span>,
+</span></span><span style="display:flex;"><span>	event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;BufReadPre&#34;</span>, <span style="color:#e6db74">&#34;BufNewFile&#34;</span> },
+</span></span><span style="display:flex;"><span>	config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> lint <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;lint&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		lint.linters_by_ft <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>			javascript <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;eslint_d&#34;</span> },
+</span></span><span style="display:flex;"><span>			typescript <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;eslint_d&#34;</span> },
+</span></span><span style="display:flex;"><span>			javascriptreact <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;eslint_d&#34;</span> },
+</span></span><span style="display:flex;"><span>			typescriptreact <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;eslint_d&#34;</span> },
+</span></span><span style="display:flex;"><span>			svelte <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;eslint_d&#34;</span> },
+</span></span><span style="display:flex;"><span>			python <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;pylint&#34;</span> },
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> lint_augroup <span style="color:#f92672">=</span> vim.api.nvim_create_augroup(<span style="color:#e6db74">&#34;lint&#34;</span>, { clear <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		vim.api.nvim_create_autocmd({ <span style="color:#e6db74">&#34;BufEnter&#34;</span>, <span style="color:#e6db74">&#34;BufWritePost&#34;</span>, <span style="color:#e6db74">&#34;InsertLeave&#34;</span> }, {
+</span></span><span style="display:flex;"><span>			group <span style="color:#f92672">=</span> lint_augroup,
+</span></span><span style="display:flex;"><span>			callback <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>				lint.try_lint()
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>		})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		vim.keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;l&#34;</span>, <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>			lint.try_lint()
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">end</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Trigger linting for current file&#34;</span> })
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/lualine.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;nvim-lualine/lualine.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>  dependencies <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;nvim-tree/nvim-web-devicons&#34;</span> },
+</span></span><span style="display:flex;"><span>  config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> lualine <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;lualine&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> lazy_status <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;lazy.status&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    lualine.setup({
+</span></span><span style="display:flex;"><span>      sections <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>        lualine_a <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;mode&#34;</span> },
+</span></span><span style="display:flex;"><span>        lualine_b <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;branch&#34;</span> },
+</span></span><span style="display:flex;"><span>        lualine_c <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;filename&#34;</span> },
+</span></span><span style="display:flex;"><span>        lualine_x <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>          {
+</span></span><span style="display:flex;"><span>            lazy_status.updates,
+</span></span><span style="display:flex;"><span>            cond <span style="color:#f92672">=</span> lazy_status.has_updates,
+</span></span><span style="display:flex;"><span>            color <span style="color:#f92672">=</span> { fg <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;#ff9e64&#34;</span> }
+</span></span><span style="display:flex;"><span>          },
+</span></span><span style="display:flex;"><span>          <span style="color:#e6db74">&#34;encoding&#34;</span>,
+</span></span><span style="display:flex;"><span>          <span style="color:#e6db74">&#34;fileformat&#34;</span>,
+</span></span><span style="display:flex;"><span>          <span style="color:#e6db74">&#34;filetype&#34;</span>
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        lualine_y <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;progress&#34;</span> },
+</span></span><span style="display:flex;"><span>        lualine_z <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;location&#34;</span> },
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/nvim-cmp.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;hrsh7th/nvim-cmp&#34;</span>,
+</span></span><span style="display:flex;"><span>	event <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;InsertEnter&#34;</span>,
+</span></span><span style="display:flex;"><span>	dependencies <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;hrsh7th/cmp-buffer&#34;</span>, <span style="color:#75715e">-- source for text in buffer</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;hrsh7th/cmp-path&#34;</span>, <span style="color:#75715e">-- source for file system paths</span>
+</span></span><span style="display:flex;"><span>		{
+</span></span><span style="display:flex;"><span>			<span style="color:#e6db74">&#34;L3MON4D3/Luasnip&#34;</span>,
+</span></span><span style="display:flex;"><span>			version <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;v2.*&#34;</span>,
+</span></span><span style="display:flex;"><span>			build <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;make install_jsregexp&#34;</span>,
+</span></span><span style="display:flex;"><span>		},
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;saadparwaiz1/cmp_luasnip&#34;</span>, <span style="color:#75715e">-- for autocompletion</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;rafamadriz/friendly-snippets&#34;</span>, <span style="color:#75715e">-- useful snippets</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;onsails/lspkind.nvim&#34;</span>, <span style="color:#75715e">-- vs-code like pictograms</span>
+</span></span><span style="display:flex;"><span>	},
+</span></span><span style="display:flex;"><span>	config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> cmp <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;cmp&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> luasnip <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;luasnip&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> lspkind <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;lspkind&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">-- loads vscode style snippets from installed plugins (e.g. friendly-snippets)</span>
+</span></span><span style="display:flex;"><span>		require(<span style="color:#e6db74">&#34;luasnip.loaders.from_vscode&#34;</span>).lazy_load()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">-- load VSCode style custom snippets inside .config/nvim/snippets/vscode. Uncoment to enable</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">-- require(&#34;luasnip.loaders.from_vscode&#34;).lazy_load({ paths = vim.fn.stdpath(&#34;config&#34;) .. &#34;/snippets/vscode&#34; })</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		cmp.setup({
+</span></span><span style="display:flex;"><span>			completion <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				completeopt <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;menu,menuone,preview,noselect&#34;</span>,
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>			snippet <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				expand <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>(args)
+</span></span><span style="display:flex;"><span>					luasnip.lsp_expand(args.body)
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>			mapping <span style="color:#f92672">=</span> cmp.mapping.preset.insert({
+</span></span><span style="display:flex;"><span>				[<span style="color:#e6db74">&#34;&lt;C-e&gt;&#34;</span>] <span style="color:#f92672">=</span> cmp.mapping.select_prev_item(), <span style="color:#75715e">-- previous suggestion</span>
+</span></span><span style="display:flex;"><span>				[<span style="color:#e6db74">&#34;&lt;C-n&gt;&#34;</span>] <span style="color:#f92672">=</span> cmp.mapping.select_next_item(), <span style="color:#75715e">-- next suggestion</span>
+</span></span><span style="display:flex;"><span>				[<span style="color:#e6db74">&#34;&lt;C-b&gt;&#34;</span>] <span style="color:#f92672">=</span> cmp.mapping.scroll_docs(<span style="color:#f92672">-</span><span style="color:#ae81ff">4</span>),
+</span></span><span style="display:flex;"><span>				[<span style="color:#e6db74">&#34;&lt;C-f&gt;&#34;</span>] <span style="color:#f92672">=</span> cmp.mapping.scroll_docs(<span style="color:#ae81ff">4</span>),
+</span></span><span style="display:flex;"><span>				[<span style="color:#e6db74">&#34;&lt;C-space&gt;&#34;</span>] <span style="color:#f92672">=</span> cmp.mapping.complete(), <span style="color:#75715e">-- show completion suggestions</span>
+</span></span><span style="display:flex;"><span>				[<span style="color:#e6db74">&#34;&lt;C-x&gt;&#34;</span>] <span style="color:#f92672">=</span> cmp.mapping.abort(), <span style="color:#75715e">-- close completion window</span>
+</span></span><span style="display:flex;"><span>				[<span style="color:#e6db74">&#34;&lt;CR&gt;&#34;</span>] <span style="color:#f92672">=</span> cmp.mapping.confirm({ select <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span> }),
+</span></span><span style="display:flex;"><span>			}),
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>			<span style="color:#75715e">-- sources for autocompletion</span>
+</span></span><span style="display:flex;"><span>			sources <span style="color:#f92672">=</span> cmp.config.sources({
+</span></span><span style="display:flex;"><span>				{ name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nvim_lsp&#34;</span> }, <span style="color:#75715e">-- nvim-lsp</span>
+</span></span><span style="display:flex;"><span>				{ name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;luasnip&#34;</span> }, <span style="color:#75715e">-- snippets</span>
+</span></span><span style="display:flex;"><span>				{ name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;buffer&#34;</span> }, <span style="color:#75715e">-- text within current buffer</span>
+</span></span><span style="display:flex;"><span>				{ name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;path&#34;</span> }, <span style="color:#75715e">-- file system paths</span>
+</span></span><span style="display:flex;"><span>			}),
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>			<span style="color:#75715e">-- configure lspkind for vs-code like pictograms in completion menu</span>
+</span></span><span style="display:flex;"><span>			formatting <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				format <span style="color:#f92672">=</span> lspkind.cmp_format({
+</span></span><span style="display:flex;"><span>					maxwidth <span style="color:#f92672">=</span> <span style="color:#ae81ff">50</span>,
+</span></span><span style="display:flex;"><span>					ellipsis_char <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;...&#34;</span>,
+</span></span><span style="display:flex;"><span>				}),
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>		})
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/nvim-tree.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;nvim-tree/nvim-tree.lua&#34;</span>,
+</span></span><span style="display:flex;"><span>	dependencies <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nvim-tree/nvim-web-devicons&#34;</span>,
+</span></span><span style="display:flex;"><span>	config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> nvimtree <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;nvim-tree&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">-- recommended settings from documentation</span>
+</span></span><span style="display:flex;"><span>		vim.g.loaded <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>		vim.g.loaded_netrwPlugin <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		nvimtree.setup({
+</span></span><span style="display:flex;"><span>			actions <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				open_file <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>					window_picker <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>						enable <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>					},
+</span></span><span style="display:flex;"><span>				},
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>			filters <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				custom <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;.DS_Store&#34;</span>, <span style="color:#e6db74">&#34;.git&#34;</span> },
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>			git <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				ignore <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>		})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">-- set keymaps</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> keymap <span style="color:#f92672">=</span> vim.keymap
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;ee&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;NvimTreeToggle&lt;CR&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Toggle file explorer&#34;</span> })
+</span></span><span style="display:flex;"><span>		keymap.set(
+</span></span><span style="display:flex;"><span>			<span style="color:#e6db74">&#34;n&#34;</span>,
+</span></span><span style="display:flex;"><span>			<span style="color:#e6db74">&#34;&lt;leader&gt;ef&#34;</span>,
+</span></span><span style="display:flex;"><span>			<span style="color:#e6db74">&#34;&lt;cmd&gt;NvimTreeFocus&lt;CR&gt;&#34;</span>,
+</span></span><span style="display:flex;"><span>			{ desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Open the explorer if it is closed, and then focus on the explorer.&#34;</span> }
+</span></span><span style="display:flex;"><span>		)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/surround.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;kylechui/nvim-surround&#34;</span>,
+</span></span><span style="display:flex;"><span>  event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;BufReadPre&#34;</span>, <span style="color:#e6db74">&#34;BufNewFile&#34;</span> },
+</span></span><span style="display:flex;"><span>  version <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;*&#34;</span>,
+</span></span><span style="display:flex;"><span>  config <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/telescope.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;nvim-telescope/telescope.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>  branch <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0.1.x&#34;</span>,
+</span></span><span style="display:flex;"><span>  dependencies <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;nvim-lua/plenary.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>    { <span style="color:#e6db74">&#34;nvim-telescope/telescope-fzf-native.nvim&#34;</span>, build <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;make&#34;</span> },
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;nvim-tree/nvim-web-devicons&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;folke/todo-comments.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> ()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> telescope <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;telescope&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> actions <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;telescope.actions&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    telescope.setup({
+</span></span><span style="display:flex;"><span>      defaults <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>        path_display <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;smart&#34;</span> },
+</span></span><span style="display:flex;"><span>        mappings <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>          i <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>            [<span style="color:#e6db74">&#34;&lt;C-e&gt;&#34;</span>] <span style="color:#f92672">=</span> actions.move_selection_previous, <span style="color:#75715e">-- move to prev result</span>
+</span></span><span style="display:flex;"><span>            [<span style="color:#e6db74">&#34;&lt;C-n&gt;&#34;</span>] <span style="color:#f92672">=</span> actions.move_selection_next, <span style="color:#75715e">-- move to next result</span>
+</span></span><span style="display:flex;"><span>            [<span style="color:#e6db74">&#34;&lt;C-q&gt;&#34;</span>] <span style="color:#f92672">=</span> actions.send_selected_to_qflist <span style="color:#f92672">+</span> actions.open_qflist,
+</span></span><span style="display:flex;"><span>          }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    telescope.load_extension(<span style="color:#e6db74">&#34;fzf&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- set keymaps</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> keymap <span style="color:#f92672">=</span> vim.keymap
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;ff&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;Telescope find_files&lt;cr&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Find files within current working directory, respects .gitignore&#34;</span> })
+</span></span><span style="display:flex;"><span>    keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;fs&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;Telescope live_grep&lt;cr&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Search for string within current working directory&#34;</span> })
+</span></span><span style="display:flex;"><span>    keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;fc&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;Telescope grep_string&lt;cr&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Find string under cursor in current working directory&#34;</span> })
+</span></span><span style="display:flex;"><span>    keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;fb&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;Telescope buffers&lt;cr&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;List open buffers in current neovim instance&#34;</span> })
+</span></span><span style="display:flex;"><span>    keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;fh&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;Telescope help_tags&lt;cr&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;List available help tags&#34;</span> })
+</span></span><span style="display:flex;"><span>    keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;ft&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;TodoTelescope&lt;cr&gt;&#34;</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Find TODO&#39;s&#34;</span> })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/todo-comments.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;folke/todo-comments.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>  event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;BufReadPre&#34;</span>, <span style="color:#e6db74">&#34;BufNewFile&#34;</span> },
+</span></span><span style="display:flex;"><span>  dependencies <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;nvim-lua/plenary.nvim&#34;</span> },
+</span></span><span style="display:flex;"><span>  config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> todo_comments <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;todo-comments&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- set keymaps</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> keymap <span style="color:#f92672">=</span> vim.keymap
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;]t&#34;</span>, <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>      todo_comments.jump_next()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Next TODO comment&#34;</span> })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;[t&#34;</span>, <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>      todo_comments.jump_prev()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>, { desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Previous TOOO comment&#34;</span> })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    todo_comments.setup()
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/treesitter.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;nvim-treesitter/nvim-treesitter&#34;</span>,
+</span></span><span style="display:flex;"><span>  event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;BufReadPre&#34;</span>, <span style="color:#e6db74">&#34;BufNewFile&#34;</span> },
+</span></span><span style="display:flex;"><span>  build <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;:TSUpdate&#34;</span>,
+</span></span><span style="display:flex;"><span>  dependencies <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;windwp/nvim-ts-autotag&#34;</span> },
+</span></span><span style="display:flex;"><span>  config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> treesitter <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;nvim-treesitter.configs&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    treesitter.setup({
+</span></span><span style="display:flex;"><span>      highlight <span style="color:#f92672">=</span> { enable <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> },
+</span></span><span style="display:flex;"><span>      indent <span style="color:#f92672">=</span> { enable <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> },
+</span></span><span style="display:flex;"><span>      autotag <span style="color:#f92672">=</span> { enable <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> }, <span style="color:#75715e">-- with nvim-ts-autotag plugin</span>
+</span></span><span style="display:flex;"><span>      ensure_installed <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;bash&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;cpp&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;css&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;dockerfile&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;go&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;gitignore&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;graphql&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;html&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;java&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;javascript&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;json&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;lua&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;markdown&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;markdown_inline&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;regex&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;svelte&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;tsx&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;typescript&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;vim&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;yaml&#34;</span>,
+</span></span><span style="display:flex;"><span>      },
+</span></span><span style="display:flex;"><span>      incremental_selection <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>        enable <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>        keymaps <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>          init_selection <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;C-space&gt;&#34;</span>,
+</span></span><span style="display:flex;"><span>          node_incremental <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;C-space&gt;&#34;</span>,
+</span></span><span style="display:flex;"><span>          scope_incremental <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>          node_decremental <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;bs&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      },
+</span></span><span style="display:flex;"><span>      auto_install <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/trouble.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;folke/trouble.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>  opts <span style="color:#f92672">=</span> {}, <span style="color:#75715e">-- for default options, refer to the configuration section for custom setup.</span>
+</span></span><span style="display:flex;"><span>  cmd <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Trouble&#34;</span>,
+</span></span><span style="display:flex;"><span>  keys <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;leader&gt;xx&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;cmd&gt;Trouble diagnostics toggle&lt;cr&gt;&#34;</span>,
+</span></span><span style="display:flex;"><span>      desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Diagnostics (Trouble)&#34;</span>,
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;leader&gt;xX&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;cmd&gt;Trouble diagnostics toggle filter.buf=0&lt;cr&gt;&#34;</span>,
+</span></span><span style="display:flex;"><span>      desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Buffer Diagnostics (Trouble)&#34;</span>,
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;leader&gt;cs&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;cmd&gt;Trouble symbols toggle focus=false&lt;cr&gt;&#34;</span>,
+</span></span><span style="display:flex;"><span>      desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Symbols (Trouble)&#34;</span>,
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;leader&gt;cl&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;cmd&gt;Trouble lsp toggle focus=false win.position=right&lt;cr&gt;&#34;</span>,
+</span></span><span style="display:flex;"><span>      desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;LSP Definitions / references / ... (Trouble)&#34;</span>,
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;leader&gt;xL&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;cmd&gt;Trouble loclist toggle&lt;cr&gt;&#34;</span>,
+</span></span><span style="display:flex;"><span>      desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Location List (Trouble)&#34;</span>,
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;leader&gt;xQ&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;cmd&gt;Trouble qflist toggle&lt;cr&gt;&#34;</span>,
+</span></span><span style="display:flex;"><span>      desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Quickfix List (Trouble)&#34;</span>,
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/vim-maximizer.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;szw/vim-maximizer&#34;</span>,
+</span></span><span style="display:flex;"><span>  keys <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    { <span style="color:#e6db74">&#34;&lt;leader&gt;sm&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;MaximizerToggle&lt;CR&gt;&#34;</span>, desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Maximize/minimize a split&#34;</span> }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/which-key.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;folke/which-key.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>  event <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;VeryLazy&#34;</span>,
+</span></span><span style="display:flex;"><span>  init <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> ()
+</span></span><span style="display:flex;"><span>    vim.o.timeout <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>    vim.o.timeoutlen <span style="color:#f92672">=</span> <span style="color:#ae81ff">500</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>  opts <span style="color:#f92672">=</span> {},
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<h4 id="24-custom-snippets">2.4. Custom snippets</h4>
+<p>We&rsquo;re going to make an example snippet for c++.</p>
+<blockquote>
+<p>It is necessary to uncomment the following line in the <strong>lua/ignacioillanes/plugins/nvim-cmp.lua</strong> file:</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#75715e">-- load VSCode style custom snippets inside .config/nvim/snippets/vscode. Uncoment to enable</span>
+</span></span><span style="display:flex;"><span>require(<span style="color:#e6db74">&#34;luasnip.loaders.from_vscode&#34;</span>).lazy_load({ paths <span style="color:#f92672">=</span> vim.fn.stdpath(<span style="color:#e6db74">&#34;config&#34;</span>) <span style="color:#f92672">..</span> <span style="color:#e6db74">&#34;/snippets/vscode&#34;</span> })
+</span></span></code></pre></div><p>In order to use custom snippets you need to create a folder called <strong>snippets</strong> in the root of your nvim configuration, the file structure should look like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>├── snippets
+</span></span><span style="display:flex;"><span>│   └── vscode
+</span></span><span style="display:flex;"><span>│       ├── cpp.json
+</span></span><span style="display:flex;"><span>│       └── package.json
+</span></span></code></pre></div><p>The <strong>package.json</strong> should contain all the file definitions for each language and it&rsquo;s corresponding snippets:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Custom snippets&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;engines&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;vscode&#34;</span>: <span style="color:#e6db74">&#34;^1.0.0&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;contributes&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;snippets&#34;</span>: [
+</span></span><span style="display:flex;"><span>      {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;language&#34;</span>: <span style="color:#e6db74">&#34;cpp&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;path&#34;</span>: <span style="color:#e6db74">&#34;./cpp.json&#34;</span>
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Now edit the <strong>cpp.json</strong> file and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;Competitve programming template&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;prefix&#34;</span>: [<span style="color:#e6db74">&#34;competitive&#34;</span>, <span style="color:#e6db74">&#34;template&#34;</span>, <span style="color:#e6db74">&#34;cp&#34;</span>, <span style="color:#e6db74">&#34;compprog&#34;</span>],
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;body&#34;</span>: [
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;// K.I.S.S&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;#include &lt;bits/stdc++.h&gt;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;#define FastIO ios_base::sync_with_stdio(false); cin.tie(NULL)&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;using namespace std;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;void solve(){&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;  ${1}&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;}&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;int main(){&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;  FastIO;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;  int t; cin&gt;&gt;t;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;  while(t--){&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;    solve();&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;  }&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;}&#34;</span>
+</span></span><span style="display:flex;"><span>    ],
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Competitive programming template made for C++.&#34;</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="25-lsp">2.5. LSP</h4>
+<p>Create a new file called <strong>lua/ignacioillanes/plugins/lsp/lspconfig.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;neovim/nvim-lspconfig&#34;</span>,
+</span></span><span style="display:flex;"><span>  event <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;BufReadPre&#34;</span>, <span style="color:#e6db74">&#34;BufNewFile&#34;</span> },
+</span></span><span style="display:flex;"><span>  dependencies <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;hrsh7th/cmp-nvim-lsp&#34;</span>,
+</span></span><span style="display:flex;"><span>    { <span style="color:#e6db74">&#34;antosha417/nvim-lsp-file-operations&#34;</span>, config <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> },
+</span></span><span style="display:flex;"><span>    { <span style="color:#e6db74">&#34;folke/neodev.nvim&#34;</span>, opts <span style="color:#f92672">=</span> {} },
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- import lspconfig plugin</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> lspconfig <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;lspconfig&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- import mason_lspconfig plugin</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> mason_lspconfig <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;mason-lspconfig&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- import cmp-nvim-lsp plugin</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> cmp_nvim_lsp <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;cmp_nvim_lsp&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> keymap <span style="color:#f92672">=</span> vim.keymap <span style="color:#75715e">-- for conciseness</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    vim.api.nvim_create_autocmd(<span style="color:#e6db74">&#34;LspAttach&#34;</span>, {
+</span></span><span style="display:flex;"><span>      group <span style="color:#f92672">=</span> vim.api.nvim_create_augroup(<span style="color:#e6db74">&#34;UserLspConfig&#34;</span>, {}),
+</span></span><span style="display:flex;"><span>      callback <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>(ev)
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">-- Buffer local mappings.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">-- See `:help vim.lsp.*` for documentation on any of the below functions</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">local</span> opts <span style="color:#f92672">=</span> { buffer <span style="color:#f92672">=</span> ev.buf, silent <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">-- set keybinds</span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Show LSP references&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;gR&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;Telescope lsp_references&lt;CR&gt;&#34;</span>, opts) <span style="color:#75715e">-- show definition, references</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Go to declaration&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;gD&#34;</span>, vim.lsp.buf.declaration, opts) <span style="color:#75715e">-- go to declaration</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Show LSP definitions&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;gd&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;Telescope lsp_definitions&lt;CR&gt;&#34;</span>, opts) <span style="color:#75715e">-- show lsp definitions</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Show LSP implementations&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;gi&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;Telescope lsp_implementations&lt;CR&gt;&#34;</span>, opts) <span style="color:#75715e">-- show lsp implementations</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Show LSP type definitions&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;gt&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;Telescope lsp_type_definitions&lt;CR&gt;&#34;</span>, opts) <span style="color:#75715e">-- show lsp type definitions</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;See available code actions&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set({ <span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;v&#34;</span> }, <span style="color:#e6db74">&#34;&lt;leader&gt;ca&#34;</span>, vim.lsp.buf.code_action, opts) <span style="color:#75715e">-- see available code actions, in visual mode will apply to selection</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Smart rename&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;rn&#34;</span>, vim.lsp.buf.rename, opts) <span style="color:#75715e">-- smart rename</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Show buffer diagnostics&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;D&#34;</span>, <span style="color:#e6db74">&#34;&lt;cmd&gt;Telescope diagnostics bufnr=0&lt;CR&gt;&#34;</span>, opts) <span style="color:#75715e">-- show  diagnostics for file</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Show line diagnostics&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;d&#34;</span>, vim.diagnostic.open_float, opts) <span style="color:#75715e">-- show diagnostics for line</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Go to previous diagnostic&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;[d&#34;</span>, vim.diagnostic.goto_prev, opts) <span style="color:#75715e">-- jump to previous diagnostic in buffer</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Go to next diagnostic&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;]d&#34;</span>, vim.diagnostic.goto_next, opts) <span style="color:#75715e">-- jump to next diagnostic in buffer</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Show documentation for what is under cursor&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;K&#34;</span>, vim.lsp.buf.hover, opts) <span style="color:#75715e">-- show documentation for what is under cursor</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        opts.desc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Restart LSP&#34;</span>
+</span></span><span style="display:flex;"><span>        keymap.set(<span style="color:#e6db74">&#34;n&#34;</span>, <span style="color:#e6db74">&#34;&lt;leader&gt;rs&#34;</span>, <span style="color:#e6db74">&#34;:LspRestart&lt;CR&gt;&#34;</span>, opts) <span style="color:#75715e">-- mapping to restart lsp if necessary</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- used to enable autocompletion (assign to every lsp server config)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> capabilities <span style="color:#f92672">=</span> cmp_nvim_lsp.default_capabilities()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- Change the Diagnostic symbols in the sign column (gutter)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">-- (not in youtube nvim video)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">local</span> signs <span style="color:#f92672">=</span> { Error <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; &#34;</span>, Warn <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; &#34;</span>, Hint <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;󰠠 &#34;</span>, Info <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; &#34;</span> }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> type, icon <span style="color:#66d9ef">in</span> pairs(signs) <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">local</span> hl <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;DiagnosticSign&#34;</span> <span style="color:#f92672">..</span> type
+</span></span><span style="display:flex;"><span>      vim.fn.sign_define(hl, { text <span style="color:#f92672">=</span> icon, texthl <span style="color:#f92672">=</span> hl, numhl <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span> })
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    mason_lspconfig.setup_handlers({
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">-- default handler for installed servers</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">function</span>(server_name)
+</span></span><span style="display:flex;"><span>        lspconfig[server_name].setup({
+</span></span><span style="display:flex;"><span>          capabilities <span style="color:#f92672">=</span> capabilities,
+</span></span><span style="display:flex;"><span>        })
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">-- SPECIAL LSP CONFIGURATION STARTS HERE</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      [<span style="color:#e6db74">&#34;svelte&#34;</span>] <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">-- configure svelte server</span>
+</span></span><span style="display:flex;"><span>        lspconfig[<span style="color:#e6db74">&#34;svelte&#34;</span>].setup({
+</span></span><span style="display:flex;"><span>          capabilities <span style="color:#f92672">=</span> capabilities,
+</span></span><span style="display:flex;"><span>          on_attach <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>(client, bufnr)
+</span></span><span style="display:flex;"><span>            vim.api.nvim_create_autocmd(<span style="color:#e6db74">&#34;BufWritePost&#34;</span>, {
+</span></span><span style="display:flex;"><span>              pattern <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;*.js&#34;</span>, <span style="color:#e6db74">&#34;*.ts&#34;</span> },
+</span></span><span style="display:flex;"><span>              callback <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>(ctx)
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">-- Here use ctx.match instead of ctx.file</span>
+</span></span><span style="display:flex;"><span>                client.notify(<span style="color:#e6db74">&#34;$/onDidChangeTsOrJsFile&#34;</span>, { uri <span style="color:#f92672">=</span> ctx.match })
+</span></span><span style="display:flex;"><span>              <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>            })
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>        })
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>      [<span style="color:#e6db74">&#34;graphql&#34;</span>] <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">-- configure graphql language server</span>
+</span></span><span style="display:flex;"><span>        lspconfig[<span style="color:#e6db74">&#34;graphql&#34;</span>].setup({
+</span></span><span style="display:flex;"><span>          capabilities <span style="color:#f92672">=</span> capabilities,
+</span></span><span style="display:flex;"><span>          filetypes <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;graphql&#34;</span>, <span style="color:#e6db74">&#34;gql&#34;</span>, <span style="color:#e6db74">&#34;svelte&#34;</span>, <span style="color:#e6db74">&#34;typescriptreact&#34;</span>, <span style="color:#e6db74">&#34;javascriptreact&#34;</span> },
+</span></span><span style="display:flex;"><span>        })
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>      [<span style="color:#e6db74">&#34;emmet_ls&#34;</span>] <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">-- configure emmet language server</span>
+</span></span><span style="display:flex;"><span>        lspconfig[<span style="color:#e6db74">&#34;emmet_ls&#34;</span>].setup({
+</span></span><span style="display:flex;"><span>          capabilities <span style="color:#f92672">=</span> capabilities,
+</span></span><span style="display:flex;"><span>          filetypes <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;html&#34;</span>, <span style="color:#e6db74">&#34;typescriptreact&#34;</span>, <span style="color:#e6db74">&#34;javascriptreact&#34;</span>, <span style="color:#e6db74">&#34;css&#34;</span>, <span style="color:#e6db74">&#34;sass&#34;</span>, <span style="color:#e6db74">&#34;scss&#34;</span>, <span style="color:#e6db74">&#34;less&#34;</span>, <span style="color:#e6db74">&#34;svelte&#34;</span> },
+</span></span><span style="display:flex;"><span>        })
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>      [<span style="color:#e6db74">&#34;lua_ls&#34;</span>] <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">-- configure lua server (with special settings)</span>
+</span></span><span style="display:flex;"><span>        lspconfig[<span style="color:#e6db74">&#34;lua_ls&#34;</span>].setup({
+</span></span><span style="display:flex;"><span>          capabilities <span style="color:#f92672">=</span> capabilities,
+</span></span><span style="display:flex;"><span>          settings <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>            Lua <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>              <span style="color:#75715e">-- make the language server recognize &#34;vim&#34; global</span>
+</span></span><span style="display:flex;"><span>              diagnostics <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>                globals <span style="color:#f92672">=</span> { <span style="color:#e6db74">&#34;vim&#34;</span> },
+</span></span><span style="display:flex;"><span>              },
+</span></span><span style="display:flex;"><span>              completion <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>                callSnippet <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Replace&#34;</span>,
+</span></span><span style="display:flex;"><span>              },
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>          },
+</span></span><span style="display:flex;"><span>        })
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">-- SPECIAL LSP CONFIGURATION ENDS HERE</span>
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Create a new file called <strong>lua/ignacioillanes/plugins/lsp/mason.lua</strong> and paste the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;williamboman/mason.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>	dependencies <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;williamboman/mason-lspconfig.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;WhoIsSethDaniel/mason-tool-installer.nvim&#34;</span>,
+</span></span><span style="display:flex;"><span>	},
+</span></span><span style="display:flex;"><span>	config <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>()
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> mason <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;mason&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> mason_lspconfig <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;mason-lspconfig&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">local</span> mason_tool_installer <span style="color:#f92672">=</span> require(<span style="color:#e6db74">&#34;mason-tool-installer&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		mason.setup({
+</span></span><span style="display:flex;"><span>			ui <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				icons <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>					package_installed <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;✓&#34;</span>,
+</span></span><span style="display:flex;"><span>					package_pending <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;➜&#34;</span>,
+</span></span><span style="display:flex;"><span>					package_uninstalled <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;✗&#34;</span>,
+</span></span><span style="display:flex;"><span>				},
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>		})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		mason_lspconfig.setup({
+</span></span><span style="display:flex;"><span>			ensure_installed <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;tsserver&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;html&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;cssls&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;tailwindcss&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;svelte&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;lua_ls&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;graphql&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;emmet_ls&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;prismals&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;pyright&#34;</span>,
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>		})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		mason_tool_installer.setup({
+</span></span><span style="display:flex;"><span>			ensure_installed <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;prettier&#34;</span>, <span style="color:#75715e">-- prettier formatter</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;stylua&#34;</span>, <span style="color:#75715e">-- lua formatter</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;isort&#34;</span>, <span style="color:#75715e">-- python formatter</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;black&#34;</span>, <span style="color:#75715e">-- python formatter</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;pylint&#34;</span>, <span style="color:#75715e">-- python linter</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#e6db74">&#34;eslint_d&#34;</span>, <span style="color:#75715e">-- js linter</span>
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>		})
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">end</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="vim-cheatsheet">Vim cheatsheet</h2>
+<h3 id="colemak">Colemak</h3>
+<p><img src="images/colemak-vimsheet.jpg" alt="colemak-vimsheet"></p>
+<h3 id="qwerty">QWERTY</h3>
+<p><img src="images/qwerty-vimsheet.jpg" alt="QWERTY-vimsheet"></p>
+<h3 id="aditional-resources">Aditional resources</h3>
+<p><a href="https://vim.rtorr.com/">Vim Cheat Sheet</a></p>
+<p><a href="https://vim-adventures.com/">Vim Adventures</a></p>
 
         
     </div>
@@ -431,17 +1135,25 @@ a bunch of other stuff that you can extend with plugins.</p>
           <ul>
             <li><a href="#1-installation">1. Installation</a>
               <ul>
-                <li><a href="#11-remove-old-configuration-optional">1.1 Remove old configuration (OPTIONAL)</a></li>
+                <li><a href="#11-remove-old-configuration-optional">1.1. Remove old configuration (OPTIONAL)</a></li>
               </ul>
             </li>
             <li><a href="#2-configuration">2. Configuration</a>
               <ul>
-                <li><a href="#lazynvim-installation">Lazy.nvim installation</a></li>
-                <li><a href="#core-configuration">Core configuration</a></li>
-                <li><a href="#plugins">Plugins</a></li>
-                <li><a href="#lsp">LSP</a></li>
+                <li><a href="#21-lazynvim-installation">2.1. Lazy.nvim installation</a></li>
+                <li><a href="#22-core-configuration">2.2. Core configuration</a></li>
+                <li><a href="#23-plugins">2.3. Plugins</a></li>
+                <li><a href="#24-custom-snippets">2.4. Custom snippets</a></li>
+                <li><a href="#25-lsp">2.5. LSP</a></li>
               </ul>
             </li>
+          </ul>
+        </li>
+        <li><a href="#vim-cheatsheet">Vim cheatsheet</a>
+          <ul>
+            <li><a href="#colemak">Colemak</a></li>
+            <li><a href="#qwerty">QWERTY</a></li>
+            <li><a href="#aditional-resources">Aditional resources</a></li>
           </ul>
         </li>
       </ul>

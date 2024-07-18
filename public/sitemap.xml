@@ -2,14 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>http://ignacioillanes.tech/tags/coding/</loc>
     <lastmod>2024-07-14T13:14:53-03:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>http://ignacioillanes.tech/posts/20240714_howvimhelpedmecodefaster/</loc>
     <lastmod>2024-07-14T13:14:53-03:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://ignacioillanes.tech/</loc>
+    <lastmod>2024-07-14T13:14:53-03:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://ignacioillanes.tech/tags/neovim/</loc>
+    <lastmod>2024-07-14T13:14:53-03:00</lastmod>
+  </url><url>
+    <loc>http://ignacioillanes.tech/posts/</loc>
+    <lastmod>2024-07-14T13:14:53-03:00</lastmod>
+  </url><url>
+    <loc>http://ignacioillanes.tech/tags/productivity/</loc>
+    <lastmod>2024-07-14T13:14:53-03:00</lastmod>
+  </url><url>
+    <loc>http://ignacioillanes.tech/tags/setup/</loc>
+    <lastmod>2024-07-14T13:14:53-03:00</lastmod>
+  </url><url>
+    <loc>http://ignacioillanes.tech/tags/</loc>
+    <lastmod>2024-07-14T13:14:53-03:00</lastmod>
+  </url><url>
+    <loc>http://ignacioillanes.tech/tags/vim/</loc>
+    <lastmod>2024-07-14T13:14:53-03:00</lastmod>
+  </url><url>
+    <loc>http://ignacioillanes.tech/categories/</loc>
   </url>
 </urlset>
