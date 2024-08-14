@@ -1,7 +1,7 @@
 +++
 title = 'TallerDeSistemasDeInformacion'
 date = 2024-08-13T18:38:33-04:00
-draft = true
+draft = false
 type = 'page'
 showTableOfContents = true
 tags = ['Taller de Sistemas de Información', '2024-II', 'UCB', 'Lecture']

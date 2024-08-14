@@ -6,8 +6,22 @@
     <description>Recent content on Ignacio Illanes Bequer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Aug 2024 07:55:34 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 13 Aug 2024 18:38:33 -0400</lastBuildDate>
     <atom:link href="http://ignacioillanes.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TallerDeSistemasDeInformacion</title>
+      <link>http://ignacioillanes.tech/notes/tallerdesistemasdeinformacion/</link>
+      <pubDate>Tue, 13 Aug 2024 18:38:33 -0400</pubDate>
+      <guid>http://ignacioillanes.tech/notes/tallerdesistemasdeinformacion/</guid>
+      <description>Unidad 1: Metodología Agile Modelo en cascada (Waterfall) Es un modelo de desarrollo de software que sigue un enfoque secuencial. Cada fase debe completarse antes de pasar a la siguiente. Las fases son:&#xA;Requisitos Análisis Diseño Programación Pruebas Operaciones PROBLEMAS Rigidez: No se puede volver a una fase anterior. Dificultad para adaptarse a cambios Dificultad para medir el progreso Cuando se aplica el metodo de cascada? Cuando hay una visión clara de lo que deberia ser el producto final Cuando los clientes no tienen posibilidad de cam biar el alcance del proyecto una vez que ha comenzado Cuando el concepto y la definición son las claves del exito Cuando no hay requisitos ambiguos Metodologías Agiles Los enfoques agiles nacen de la necesidad de mejorar los procesos en la gestión de proyectos de software.</description>
+    </item>
+    <item>
+      <title>AdministracionII</title>
+      <link>http://ignacioillanes.tech/notes/administracionii/</link>
+      <pubDate>Tue, 13 Aug 2024 09:12:44 -0400</pubDate>
+      <guid>http://ignacioillanes.tech/notes/administracionii/</guid>
+      <description>Unidad 0: Repaso de Administración I 0.1 Qué es la administración? Es el proceso de planificar, organizar, dirigir y controlar actividades con personas para que estas se lleven a cabo en forma eficiente y eficaz&#xA;Se usa la eficiencia como medio para alcanzar la eficacia&#xA;Etimologia:&#xA;AD = Direccion para o tendencia para MINISTER = Obediencia o subordinación&#xA;Definicion:&#xA;En términos generales, significa &amp;ldquo;aquel que realiza una función para otro o aquel que presta un servicio a otro&amp;rdquo;</description>
+    </item>
     <item>
       <title>2024 08 07 Ind 330</title>
       <link>http://ignacioillanes.tech/notes/2024-08-07-ind-330/</link>

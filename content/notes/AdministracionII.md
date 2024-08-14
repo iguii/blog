@@ -1,7 +1,7 @@
 +++
 title = 'AdministracionII'
 date = 2024-08-13T09:12:44-04:00
-draft = true
+draft = false
 type = 'post'
 showTableOfContents = true
 tags = [ 'ucb', '2024', 'administracion' ]
