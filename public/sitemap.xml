@@ -2,60 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/2024/</loc>
-    <lastmod>2024-08-13T09:12:44-04:00</lastmod>
+    <loc>http://ignacioillanes.tech/</loc>
+    <lastmod>2024-08-13T18:38:33-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/administracion/</loc>
-    <lastmod>2024-08-13T09:12:44-04:00</lastmod>
+    <loc>http://ignacioillanes.tech/notes/</loc>
+    <lastmod>2024-08-13T18:38:33-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/administracionii/</loc>
-    <lastmod>2024-08-13T09:12:44-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-13T09:12:44-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notes/</loc>
-    <lastmod>2024-08-13T09:12:44-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-08-13T09:12:44-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ucb/</loc>
-    <lastmod>2024-08-13T09:12:44-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notes/2024-08-07-ind-330/</loc>
+    <loc>http://ignacioillanes.tech/notes/2024-08-07-ind-330/</loc>
     <lastmod>2024-08-07T07:55:34-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/2024-ii/</loc>
+    <loc>http://ignacioillanes.tech/tags/2024-ii/</loc>
     <lastmod>2024-08-07T07:55:34-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ind-330-preparaci%C3%B3n-y-evaluacion-de-proyectos-para-ingenier%C3%ADa/</loc>
+    <loc>http://ignacioillanes.tech/tags/ind-330-preparaci%C3%B3n-y-evaluacion-de-proyectos-para-ingenier%C3%ADa/</loc>
     <lastmod>2024-08-07T07:55:34-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lecture/</loc>
+    <loc>http://ignacioillanes.tech/tags/lecture/</loc>
     <lastmod>2024-08-07T07:55:34-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/coding/</loc>
+    <loc>http://ignacioillanes.tech/tags/</loc>
+    <lastmod>2024-08-07T07:55:34-04:00</lastmod>
+  </url><url>
+    <loc>http://ignacioillanes.tech/tags/ucb/</loc>
+    <lastmod>2024-08-07T07:55:34-04:00</lastmod>
+  </url><url>
+    <loc>http://ignacioillanes.tech/tags/coding/</loc>
     <lastmod>2024-07-14T13:14:53-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/</loc>
+    <loc>http://ignacioillanes.tech/posts/20240714_howvimhelpedmecodefaster/</loc>
     <lastmod>2024-07-14T13:14:53-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/neovim/</loc>
+    <loc>http://ignacioillanes.tech/tags/neovim/</loc>
     <lastmod>2024-07-14T13:14:53-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://ignacioillanes.tech/posts/</loc>
     <lastmod>2024-07-14T13:14:53-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/productivity/</loc>
+    <loc>http://ignacioillanes.tech/tags/productivity/</loc>
     <lastmod>2024-07-14T13:14:53-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/setup/</loc>
+    <loc>http://ignacioillanes.tech/tags/setup/</loc>
     <lastmod>2024-07-14T13:14:53-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vim/</loc>
+    <loc>http://ignacioillanes.tech/tags/vim/</loc>
     <lastmod>2024-07-14T13:14:53-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://ignacioillanes.tech/categories/</loc>
   </url>
 </urlset>
