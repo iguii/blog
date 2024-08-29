@@ -2,94 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ignacio Illanes Bequer</title>
-    <link>http://ignacioillanes.tech/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Ignacio Illanes Bequer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Aug 2024 18:38:33 -0400</lastBuildDate>
-    <atom:link href="http://ignacioillanes.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 14:34:57 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2024-II</title>
-      <link>http://ignacioillanes.tech/tags/2024-ii/</link>
-      <pubDate>Tue, 13 Aug 2024 18:38:33 -0400</pubDate>
-      <guid>http://ignacioillanes.tech/tags/2024-ii/</guid>
+      <title>2024</title>
+      <link>http://localhost:1313/tags/2024/</link>
+      <pubDate>Wed, 14 Aug 2024 14:34:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/2024/</guid>
       <description></description>
     </item>
     <item>
-      <title>Lecture</title>
-      <link>http://ignacioillanes.tech/tags/lecture/</link>
-      <pubDate>Tue, 13 Aug 2024 18:38:33 -0400</pubDate>
-      <guid>http://ignacioillanes.tech/tags/lecture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Taller De Sistemas De Información</title>
-      <link>http://ignacioillanes.tech/tags/taller-de-sistemas-de-informaci%C3%B3n/</link>
-      <pubDate>Tue, 13 Aug 2024 18:38:33 -0400</pubDate>
-      <guid>http://ignacioillanes.tech/tags/taller-de-sistemas-de-informaci%C3%B3n/</guid>
+      <title>Gerencia De Operaciones</title>
+      <link>http://localhost:1313/tags/gerencia-de-operaciones/</link>
+      <pubDate>Wed, 14 Aug 2024 14:34:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/gerencia-de-operaciones/</guid>
       <description></description>
     </item>
     <item>
       <title>UCB</title>
-      <link>http://ignacioillanes.tech/tags/ucb/</link>
-      <pubDate>Tue, 13 Aug 2024 18:38:33 -0400</pubDate>
-      <guid>http://ignacioillanes.tech/tags/ucb/</guid>
+      <link>http://localhost:1313/tags/ucb/</link>
+      <pubDate>Wed, 14 Aug 2024 14:34:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/ucb/</guid>
       <description></description>
     </item>
     <item>
-      <title>2024</title>
-      <link>http://ignacioillanes.tech/tags/2024/</link>
-      <pubDate>Tue, 13 Aug 2024 09:12:44 -0400</pubDate>
-      <guid>http://ignacioillanes.tech/tags/2024/</guid>
+      <title>2024-II</title>
+      <link>http://localhost:1313/tags/2024-ii/</link>
+      <pubDate>Wed, 14 Aug 2024 09:16:43 -0400</pubDate>
+      <guid>http://localhost:1313/tags/2024-ii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Auditoría De Sistemas</title>
+      <link>http://localhost:1313/tags/auditor%C3%ADa-de-sistemas/</link>
+      <pubDate>Wed, 14 Aug 2024 09:16:43 -0400</pubDate>
+      <guid>http://localhost:1313/tags/auditor%C3%ADa-de-sistemas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture</title>
+      <link>http://localhost:1313/tags/lecture/</link>
+      <pubDate>Wed, 14 Aug 2024 09:16:43 -0400</pubDate>
+      <guid>http://localhost:1313/tags/lecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Preparación De Proyectos Para Ingeniería</title>
+      <link>http://localhost:1313/tags/preparaci%C3%B3n-de-proyectos-para-ingenier%C3%ADa/</link>
+      <pubDate>Wed, 14 Aug 2024 07:43:41 -0400</pubDate>
+      <guid>http://localhost:1313/tags/preparaci%C3%B3n-de-proyectos-para-ingenier%C3%ADa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taller De Sistemas De Información</title>
+      <link>http://localhost:1313/tags/taller-de-sistemas-de-informaci%C3%B3n/</link>
+      <pubDate>Tue, 13 Aug 2024 18:38:33 -0400</pubDate>
+      <guid>http://localhost:1313/tags/taller-de-sistemas-de-informaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Administracion</title>
-      <link>http://ignacioillanes.tech/tags/administracion/</link>
+      <link>http://localhost:1313/tags/administracion/</link>
       <pubDate>Tue, 13 Aug 2024 09:12:44 -0400</pubDate>
-      <guid>http://ignacioillanes.tech/tags/administracion/</guid>
+      <guid>http://localhost:1313/tags/administracion/</guid>
       <description></description>
     </item>
     <item>
       <title>IND-330 Preparación Y Evaluacion De Proyectos Para Ingeniería</title>
-      <link>http://ignacioillanes.tech/tags/ind-330-preparaci%C3%B3n-y-evaluacion-de-proyectos-para-ingenier%C3%ADa/</link>
+      <link>http://localhost:1313/tags/ind-330-preparaci%C3%B3n-y-evaluacion-de-proyectos-para-ingenier%C3%ADa/</link>
       <pubDate>Wed, 07 Aug 2024 07:55:34 -0400</pubDate>
-      <guid>http://ignacioillanes.tech/tags/ind-330-preparaci%C3%B3n-y-evaluacion-de-proyectos-para-ingenier%C3%ADa/</guid>
+      <guid>http://localhost:1313/tags/ind-330-preparaci%C3%B3n-y-evaluacion-de-proyectos-para-ingenier%C3%ADa/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding</title>
-      <link>http://ignacioillanes.tech/tags/coding/</link>
+      <link>http://localhost:1313/tags/coding/</link>
       <pubDate>Sun, 14 Jul 2024 13:14:53 -0300</pubDate>
-      <guid>http://ignacioillanes.tech/tags/coding/</guid>
+      <guid>http://localhost:1313/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Neovim</title>
-      <link>http://ignacioillanes.tech/tags/neovim/</link>
+      <link>http://localhost:1313/tags/neovim/</link>
       <pubDate>Sun, 14 Jul 2024 13:14:53 -0300</pubDate>
-      <guid>http://ignacioillanes.tech/tags/neovim/</guid>
+      <guid>http://localhost:1313/tags/neovim/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
-      <link>http://ignacioillanes.tech/tags/productivity/</link>
+      <link>http://localhost:1313/tags/productivity/</link>
       <pubDate>Sun, 14 Jul 2024 13:14:53 -0300</pubDate>
-      <guid>http://ignacioillanes.tech/tags/productivity/</guid>
+      <guid>http://localhost:1313/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>Setup</title>
-      <link>http://ignacioillanes.tech/tags/setup/</link>
+      <link>http://localhost:1313/tags/setup/</link>
       <pubDate>Sun, 14 Jul 2024 13:14:53 -0300</pubDate>
-      <guid>http://ignacioillanes.tech/tags/setup/</guid>
+      <guid>http://localhost:1313/tags/setup/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
-      <link>http://ignacioillanes.tech/tags/vim/</link>
+      <link>http://localhost:1313/tags/vim/</link>
       <pubDate>Sun, 14 Jul 2024 13:14:53 -0300</pubDate>
-      <guid>http://ignacioillanes.tech/tags/vim/</guid>
+      <guid>http://localhost:1313/tags/vim/</guid>
       <description></description>
     </item>
   </channel>

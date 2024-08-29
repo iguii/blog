@@ -2,38 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ignacio Illanes Bequer</title>
-    <link>http://ignacioillanes.tech/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Ignacio Illanes Bequer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Aug 2024 18:38:33 -0400</lastBuildDate>
-    <atom:link href="http://ignacioillanes.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 14:34:57 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GerenciaDeOperaciones</title>
+      <link>http://localhost:1313/notes/gerenciadeoperaciones/</link>
+      <pubDate>Wed, 14 Aug 2024 14:34:57 -0400</pubDate>
+      <guid>http://localhost:1313/notes/gerenciadeoperaciones/</guid>
+      <description>Regla de las operaciones Ejercicio #2&#xA;Una empresa de manufactura produce componentes electornicos utilizando tres maquinas. COn estas tres maquinas, lasempresa puede producir 240 components en 8 horas de trabajo, empleando 6 operarios. La empresa quiere aumentar la produccion a 360 componentes en 8 horas, pero ahora con una nueva maquina dicional que se ha adquirido haciendo un total de 4 maquinas. ¿Cuantos operarios se necestaran para lograr esta nueva produccion?</description>
+    </item>
+    <item>
+      <title>AuditoriaDeSistemas</title>
+      <link>http://localhost:1313/notes/auditoriadesistemas/</link>
+      <pubDate>Wed, 14 Aug 2024 09:16:43 -0400</pubDate>
+      <guid>http://localhost:1313/notes/auditoriadesistemas/</guid>
+      <description>Tema 4: Estrcutura organizativa del area de tecnologias de la informacion Area de TI las estructura del area de TI tienen un tamaño adecuado y compatible con las operaciones y la naturaleza del negocio. Ademas la estructura organizativa debe garantizar la Seguridad de la Información y la continuidad del negocio.&#xA;Características esenciales para la seguirdad de la información Dependencia Funcional: La dependencia funcional del area de TI debe garantizar la integridad de los sistemas y seguir una jerarquia adecuada de autorización para modificaciones y alteraciones de los sistemas y la información.</description>
+    </item>
+    <item>
+      <title>PreparaciónDeProyectosParaIngenieria</title>
+      <link>http://localhost:1313/notes/preparaci%C3%B3ndeproyectosparaingenieria/</link>
+      <pubDate>Wed, 14 Aug 2024 07:43:41 -0400</pubDate>
+      <guid>http://localhost:1313/notes/preparaci%C3%B3ndeproyectosparaingenieria/</guid>
+      <description>Capitulo 3: Estudio de mercado 3.1 Objetivo Para poder definir un objetivo se tiene que definir a una poblacion objetivo, cuantos son, donde viven, niveles socioeconomicos, etc. Con esta informacion podemos definir una proyeccion apropiada para la ejecucion del proyecto.&#xA;Agentes:&#xA;Proveedores: Aquellos que proveen los insumos necesarios para la ejecucion del proyecto.&#xA;Deben brindar calidad de servicio Debe existir seriedad Debe existir garantia Competencia: Aquellos que ofrecen un producto similar al que se quiere ofrecer.</description>
+    </item>
     <item>
       <title>TallerDeSistemasDeInformacion</title>
-      <link>http://ignacioillanes.tech/notes/tallerdesistemasdeinformacion/</link>
+      <link>http://localhost:1313/notes/tallerdesistemasdeinformacion/</link>
       <pubDate>Tue, 13 Aug 2024 18:38:33 -0400</pubDate>
-      <guid>http://ignacioillanes.tech/notes/tallerdesistemasdeinformacion/</guid>
+      <guid>http://localhost:1313/notes/tallerdesistemasdeinformacion/</guid>
       <description>Unidad 1: Metodología Agile Modelo en cascada (Waterfall) Es un modelo de desarrollo de software que sigue un enfoque secuencial. Cada fase debe completarse antes de pasar a la siguiente. Las fases son:&#xA;Requisitos Análisis Diseño Programación Pruebas Operaciones PROBLEMAS Rigidez: No se puede volver a una fase anterior. Dificultad para adaptarse a cambios Dificultad para medir el progreso Cuando se aplica el metodo de cascada? Cuando hay una visión clara de lo que deberia ser el producto final Cuando los clientes no tienen posibilidad de cam biar el alcance del proyecto una vez que ha comenzado Cuando el concepto y la definición son las claves del exito Cuando no hay requisitos ambiguos Metodologías Agiles Los enfoques agiles nacen de la necesidad de mejorar los procesos en la gestión de proyectos de software.</description>
     </item>
     <item>
       <title>AdministracionII</title>
-      <link>http://ignacioillanes.tech/notes/administracionii/</link>
+      <link>http://localhost:1313/notes/administracionii/</link>
       <pubDate>Tue, 13 Aug 2024 09:12:44 -0400</pubDate>
-      <guid>http://ignacioillanes.tech/notes/administracionii/</guid>
+      <guid>http://localhost:1313/notes/administracionii/</guid>
       <description>Unidad 0: Repaso de Administración I 0.1 Qué es la administración? Es el proceso de planificar, organizar, dirigir y controlar actividades con personas para que estas se lleven a cabo en forma eficiente y eficaz&#xA;Se usa la eficiencia como medio para alcanzar la eficacia&#xA;Etimologia:&#xA;AD = Direccion para o tendencia para MINISTER = Obediencia o subordinación&#xA;Definicion:&#xA;En términos generales, significa &amp;ldquo;aquel que realiza una función para otro o aquel que presta un servicio a otro&amp;rdquo;</description>
     </item>
     <item>
       <title>2024 08 07 Ind 330</title>
-      <link>http://ignacioillanes.tech/notes/2024-08-07-ind-330/</link>
+      <link>http://localhost:1313/notes/2024-08-07-ind-330/</link>
       <pubDate>Wed, 07 Aug 2024 07:55:34 -0400</pubDate>
-      <guid>http://ignacioillanes.tech/notes/2024-08-07-ind-330/</guid>
+      <guid>http://localhost:1313/notes/2024-08-07-ind-330/</guid>
       <description>Capitulo 2: Ciclo del proyecto Proyecto El proyecto es una actividad humana que consume recursos.&#xA;Punto de vista Privado (Regida por el mercado y la &amp;ldquo;oportunidad&amp;rdquo;) Agentes económicos Bienes y servicios Rentabilidad Público (regida por el interés social y la &amp;ldquo;necesidad&amp;rdquo;) Sociedad Servicios Impacto Ciclo del proyecto Actividades Identificación ¿Qué se quiere hacer? ¿Por qué se quiere hacer? ¿Para qué se quiere hacer? Formulación ¿Cómo se va a hacer? ¿Cuánto se va a hacer?</description>
     </item>
     <item>
       <title>How vim helped me code faster</title>
-      <link>http://ignacioillanes.tech/posts/20240714_howvimhelpedmecodefaster/</link>
+      <link>http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/</link>
       <pubDate>Sun, 14 Jul 2024 13:14:53 -0300</pubDate>
-      <guid>http://ignacioillanes.tech/posts/20240714_howvimhelpedmecodefaster/</guid>
+      <guid>http://localhost:1313/posts/20240714_howvimhelpedmecodefaster/</guid>
       <description>Coding in my early days Ever since I started coding, I&amp;rsquo;ve always been looking for ways to improve my workflow. I&amp;rsquo;ve tried many different editors and IDEs, but I never really found one that I was completely satisfied with. That is until I discovered vim.&#xA;Not only is vim extremely powerful and customizable, but it also has a very active community that is constantly creating new plugins and tools to make coding even faster and more efficient.</description>
     </item>
   </channel>

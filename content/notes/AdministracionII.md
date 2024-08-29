@@ -104,3 +104,84 @@ deseados.
 Proceso de monitorear las actividades con el fin de asegurarse de que se realicen de acuaerdo a lo PLANIFICADO y corregir todas las desviaciones significativas.
 
 ---
+
+# Unidad 1: Enfoque clasico de la administración
+
+> Taylor: Padre de la administración científica. Se enfoca en la eficiencia de los trabajadores.
+
+Actualmente se considera a la administracion como una ciencia social
+
+## 1.1 Los males de la adminstacion
+
+- **Falta de uniformidad en los metodos de trabajo**
+- **Falta de uniformidad en los metodos de trabajo**
+- **Falta de uniformidad en los metodos de trabajo**
+
+de otra forma:
+
+1. Holgazaneria sitematica de los obreros
+2. Desconocimiento de la geerncia en cuanto a la rutina de trabajo y el tiempo necesario para realizarlas.
+3. Falta de uniformidad en las tecnica o metodos de trabajo.
+
+> **Principio de la planificacion**: Reemplazar en el trabajo el criterio individual del operario, la improvisación y la actuación empírica por la ciencia, mediante la planeación del método.
+
+> **Principio de la preparación**: (La persona adecuada para el trabajo adecuado) Seleccionar científicamente a los trabajadores de acuerdo con sus aptitudes y prepararlos, instruirlos y entrenarlos para producir más y mejor, de acuerdo con el método científico.
+
+> **Principio del control**: Controlar el trabajo para certificar que se está ejecutando de acuerdo con las normas establecidas y según el plan previsto.
+
+## 1.2 Teoria clasica de la administración
+
+> Fayol: Padre de la administración moderna. Se enfoca en la eficiencia de la empresa.
+
+### 1.2.1 Principios de la administración segun Fayol
+
+- Subordinacion de intereses particularesa los intereses generales de la empresa.
+- Unidad de mando (Cada subordinado debe tene un unico supervisor directo)
+- Unidad de direccion (Coordinar la fuerzas uen un fin ultimo fin ultimo comun)
+- Centralización (El poder de decision debe converger en una persona)
+- Jerarquia (Autoridad piramidal)
+- Division de trabajo
+- Autoridad y responsablidad
+- Disciplina
+- Remuneracion personal
+
+> **MAE**: Maxima autoridad ejecutiva
+
+Para aclarar las funciones administrativas, Fayol define el acto de administrar como:
+Proceso adminstrativo: Planear, organizar, dirigir, coordinar y controlar.
+
+- **Planeacion**: Examinar el futura, fijar objetivos, tomar decirionse y establecer planes de accion
+- **Organizacion**: Formulacion de una estructura para la entidad.
+- **Direccion**: Hacer lo que sea necesario para que los planes y la organizacion funcionen.
+- **Coordinar**: Unificacion del esfuerzo humano en pos de los objetivos.
+- **Control**: Verificacion que tan cerca estan lo s resultados de lo planeado.
+
+### 1.2.2 Enfoque neo-clasico de la administración
+
+La teoria neoclasica es la teoria clasica adaptada al modelo de las empersas actuales.
+
+**Los autores de la teoria neoclasica**
+
+- Peter F. Drucker
+- Harold Koontz
+- William Newman
+- Ernest Dale
+- Ralph Davis
+- Louis Allen
+
+> A.P.O : Adminstracion por objetivos
+
+> A.P.R : Adminstracion por resultados
+
+#### 1.2.2.1 Caracteristicas de la teoria neoclasica
+
+- Enfasis en la practica de la administracion
+- Enfasis en los principios generales de la administracion
+- ENfasis en los objetivos y en los resultados
+
+#### 1.2.2.2 Principios de la teoria neoclasica
+
+- **Division del trabajo**
+- **Espacializacion**
+- **Distribucion de la autoridad y la responsabilidad**
+- **Jerarquizacion**
