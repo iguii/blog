@@ -32,7 +32,7 @@ Donde entra el proyecto en el mercado?
 
 > En el mercado de los consumidores.
 
-# 3.4 Formas de estudio de mercado
+## 3.4 Formas de estudio de mercado
 
 - Metodos Subjetivos
 
@@ -45,3 +45,90 @@ Donde entra el proyecto en el mercado?
     - Entrevista
     - Encuesta
     - Observacion
+
+## 3.6 Del estudio de mercado a la formulación de proyectos
+
+- Alternativas
+  - La mejor
+  - Beneficios
+  - Solucion
+- Estudios
+  - Técnicos
+    - Tamaño
+    - Localización
+    - Ingeniería
+  - Organizacionales
+  - Financieros
+- Evaluacion permanente
+  - Ajustes (Retroalimentación)
+- Estrategia
+  - Precio
+  - Producto
+  - Plaza
+  - Promoción
+- Limitantes
+  - Recursos
+    - Monetarios
+    - Insumos
+      - Disponibilidad
+      - Costo
+
+| Año  | Demanda | Nivel Participacion |
+| ---- | ------- | ------------------- |
+| 2024 | 121.900 | 40%                 |
+| 2025 | 130.465 | 40%                 |
+| 2026 | 138.725 | 40%                 |
+| 2027 | 150.680 | 60%                 |
+| 2028 | 170.420 | 60%                 |
+| 2029 | 192.500 | 80%                 |
+| 2030 | 201.300 | 80%                 |
+
+> CAPITULO II
+> Estudio de mercado
+> 2.1 Objetivo
+> 2.2. Metodo a utilizar | Instrumentos y herramientas
+> (Encuestas, Entrevistas, Observacion)
+> (Indicadores Externos)
+> 2.3. Relustados dela aplicacoin de instrumentos
+> (Proveedores, Competencia, Distribuidores, Consumidores)
+
+---
+
+## 4.3 Localizacion
+
+### 4.3.1 Objetivo
+
+Ubicación adecuada para la ejecución del proyecto.
+
+- Análisis de microlocalización
+
+### 4.3.2 Factores localizacionales
+
+- Cualitativos
+- Cuantitativos
+
+a) Población Objetivo
+
+b) Ubicación y Disponibilidad de los insumos
+
+- Cantidad
+- Costo
+
+c) Existencia y el estado de las vías de comunicación
+
+d) Existencia y el estado de los servicios
+
+- Agua potable
+- Energía eléctrica
+- Telefonía y medios de comunicación masivos
+- Alcantarillado
+
+e) Disponibilidad de mano de obra
+
+f) Clima
+
+g) Otro
+
+- Costo del terreno
+- Calidad de suelos
+- Vivienda

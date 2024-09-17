@@ -185,3 +185,52 @@ La teoria neoclasica es la teoria clasica adaptada al modelo de las empersas act
 - **Espacializacion**
 - **Distribucion de la autoridad y la responsabilidad**
 - **Jerarquizacion**
+
+---
+
+# Teoria del desarrollo organizacional
+
+Esta teoria relacion a ala organizacion con el hombre y su ambiente, y se basa en la teoria de sistemas.
+
+Su objetivo pirncipal es cambiar actitudes, comportamientos y estructuras en la oraganizacion, para que se adapte facilmente al medio y a los cambios coninuos que abarcan a la empresa como
+un sistema total.
+
+tiene como componentes a los siguientes elementos:
+
+1. El medio: donde se tratan problemas como tecnologia y educacion
+2. la organizacion: considera que esta debe tener dinamismo y flexibilidad para sobrevivir al impacto ambiental.
+3. El grupo social: En el que hay que tomar en cuenta el liderazgo, la comunicacion, las relaciones interpersonales y los conflictos..
+4. El individuo: sus necesidades, sus actitudes y motivadores.
+
+## Teoria de sistemas
+
+> **Sistema:** Conjunto de elementos interrelacionados que operan en conjunto para alcanzar un objetivo comun.
+
+Surgio con el trbajo de Ludwig von Bertalanffy, quien propuso que los sistemas son abiertos y cerrados.
+
+se fundamenta en tres principios:
+
+- Los sistemas existen dentro de sistemas
+- Los sitemas son abiertos
+- Las funciones de un sistema dependen de su estructura
+
+**PREGUNTAS DE EXAMEN: los males de administracion, los principios de la administracion**
+
+## Enfoque sistemico\*
+
+Comprendemos a la empresa/organizacion como un sistema que se interrelaciona con su entrono de forma dinamica en el cual se distinguen 5 subsistemas que son:
+
+- Estrategia
+- Procesos
+- Estructura
+- Tecnologia
+- Personas y conocimiento
+
+Estos subsistemas a su vez se interrelacionan dinamicamente entre si, por lo cual cualquier cambio en uno de ellos afecta a los demas.
+
+## Modelos de organizaciones
+
+- La organizacion debe ser considerada como un sistema abierto
+- La organizacion debe ser concebida como un sistema con objetivos o funciones multiples
+- La organizacion existe en un ambiente dinamico que comprende otros sistemas.
+- Los multiples eslabones entre la organizacion y su medio ambiente hacen dificil definir las fronteras de cualquier organizacion
