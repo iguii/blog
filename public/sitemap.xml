@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://ignacioillanes.tech/courses/</loc>
+    <lastmod>2024-09-17T16:55:07-04:00</lastmod>
+  </url><url>
+    <loc>http://ignacioillanes.tech/</loc>
+    <lastmod>2024-09-17T16:55:07-04:00</lastmod>
+  </url><url>
     <loc>http://ignacioillanes.tech/tags/2024/</loc>
     <lastmod>2024-08-14T14:34:57-04:00</lastmod>
   </url><url>
@@ -9,9 +15,6 @@
     <lastmod>2024-08-14T14:34:57-04:00</lastmod>
   </url><url>
     <loc>http://ignacioillanes.tech/notes/gerenciadeoperaciones/</loc>
-    <lastmod>2024-08-14T14:34:57-04:00</lastmod>
-  </url><url>
-    <loc>http://ignacioillanes.tech/</loc>
     <lastmod>2024-08-14T14:34:57-04:00</lastmod>
   </url><url>
     <loc>http://ignacioillanes.tech/notes/</loc>

@@ -113,8 +113,8 @@ Actualmente se considera a la administracion como una ciencia social
 
 ## 1.1 Los males de la adminstacion
 
-- **Falta de uniformidad en los metodos de trabajo**
-- **Falta de uniformidad en los metodos de trabajo**
+- **Holgazaneria sistematica de los obreros.**
+- **Desconcimiento de la gerencia en cuanto a la rutina de trabjo y el tiempo necesario para realizarlas.**
 - **Falta de uniformidad en los metodos de trabajo**
 
 de otra forma:
@@ -234,3 +234,108 @@ Estos subsistemas a su vez se interrelacionan dinamicamente entre si, por lo cua
 - La organizacion debe ser concebida como un sistema con objetivos o funciones multiples
 - La organizacion existe en un ambiente dinamico que comprende otros sistemas.
 - Los multiples eslabones entre la organizacion y su medio ambiente hacen dificil definir las fronteras de cualquier organizacion
+
+---
+
+# Modulo estructura y diseño de las origanizaciones
+
+## Significado de la organización
+
+Una organización es una asociación de dos o mas perosnas que buscan un objetivo común para el logor de algún propósito específico.
+
+> El concepto de organización va cambiando con el tiempo.
+
+| Orgnanización Tradicional                                             | Organización Nueva                                 |
+| --------------------------------------------------------------------- | -------------------------------------------------- |
+| Estabale                                                              | Dinamica                                           |
+| Inflexible                                                            | Flexible                                           |
+| Division del trabajo                                                  | El trabajo esta definido en terminos de resultados |
+| Orientada hacia el individuo                                          | Orientada hacia el equipo                          |
+| Empleos permanentes                                                   | Empleos temporales                                 |
+| Orientada hacia reglas                                                | Orientada hacia el cliente                         |
+| Relaciones Jerarquicas                                                | Relaciones laterales y de red                      |
+| Trabajo en las instalaciones, la organización en horarios especificos | Trabajo en cualquier lugar a culaquier hora        |
+
+## Formas mecanica y organica de la organización (R.L.DAFT)
+
+| Mecanica                                                                                              | Organica                                                                            |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| 1. Las tareas se desglosan en partes especializadas y separadas.                                      | Los empleados contirbuyen a la tarea coomun del departamento.                       |
+| 2. Las tareas se definen rigidamente.                                                                 | Las tareas se ajustan y redefinen por medio del trabajo en equipo de los empleados  |
+| 3. Hay una estricta Jerarquia de autoridad y control; existen muchas reglas                           | hay menos jerarquia de autoridad y control; existen pocas reglas                    |
+| 4. El cononcimiento y el control de las tareas se centralizan en la parte superior de la organizacion | El cnonocimiento y control de las tareas estan en cualquie parte de la organizacion |
+| 5. La comunicacion es vertical                                                                        | la comunicacion es horizontal                                                       |
+
+> Que es es la administracion?
+>
+> Es un proceso de planificar, organizar, dirigir y controlar actividades con personas para que estas se lleven a cabo en forma eficiente y eficaz.
+
+**PREGUNTA DE EXAMEN: Definir eficiencia = medios y eficacia = fines**
+
+## Analisis organizacional
+
+### El entorno de una organización:
+
+1. Sector industrial
+2. Sector de materias pirmas
+3. Sector de rescursos humanos
+4. Rector de recursos financieros
+5. Sector del mercado
+6. Sector tecnologico
+7. Sector de condiciones economicas
+8. Sector gubernamental
+9. Sector socio-cultural
+10. Sector internacional
+
+---
+
+## Un sistema abierto y sus subsistemas
+
+### **Sistema abierto:** Es aquel que interactua con su entorno, recibe insumos, los transforma y los devuelve al entorno como productos.
+
+- Entrada:
+
+  - Materiales en bruto
+  - Peronsal
+  - Recursos de informacion
+  - Recursos financieros
+
+- Proceso:
+
+  - Transformacion de los insumos en productos
+  - Procesos de produccion
+  - Procesos de administracion
+
+- Salida
+
+  - Productos y servicios
+
+### **Subsistemas:** Son partes de un sistema que interactuan entre si y con el sistema total.
+
+- Entrada:
+
+  - Extendiendo fronteras
+
+- Proceso:
+
+  - Produccion, mantenimiento, adaptacion y administracion
+
+- Salida
+
+  - Extendiedo fronteras
+
+## Las cinco partes basicas de una orgnanización
+
+> Segun Mintzberg (1990s), las organizaciones se dividen en 5 partes basicas:
+
+> MAE: Maxima Autoridad Ejecutiva
+
+1. Alta direccion -> MAE (Maxima Autoridad Ejecutiva)
+2. Mandos intermedios
+3. Cuerpo operativo
+4. Staff de soporte tecnico
+5. Staff de soporte administrativo
+
+## Marco para la evaluacion de la incertidumbre ambiental
+
+![Marco para la evaluacion de la incertidumbre ambiental](/images/marco.jpeg)

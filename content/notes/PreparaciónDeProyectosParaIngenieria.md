@@ -132,3 +132,32 @@ g) Otro
 - Costo del terreno
 - Calidad de suelos
 - Vivienda
+
+---
+
+## 4.4. Ingeniería del proyecto
+
+### 4.4.1 Objetivo
+
+Optimizar uso de insumos y procesos, para tener alternativas de solución.
+
+### 4.4.2 Factores a ser considerados
+
+- Producto
+  - nombre
+  - Composicion
+  - Presentacion
+  - Unidad de medida
+  - Almacenamiento
+  - Vida util
+  - Transporte
+- Insumos
+- Ubicacion de las unidades
+- Identificación y seleccion del proceso
+- Equipos
+
+### 4.4.3 Estudios a realizar
+
+---
+
+## 4.6 Impacto ambiental

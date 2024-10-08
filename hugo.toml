@@ -73,6 +73,12 @@ enableRobotsTXT = true
     weight = 2
 
   [[menu.main]]
+    identifier = "courses"
+    name = "Courses"
+    url = "/courses/"
+    weight = 2
+
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"

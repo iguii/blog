@@ -124,7 +124,7 @@ el software nace con el objetivo de mejorar, optimizar o automatizar procesos
 
 - Revision de la estructura organizativa del area de TI
 
-> **Control:** Son politicas, practivas y estructuras organizacionales para reducir el riesgo.
+> **Control:** Son politicas, practivas y estructuras organizacionales para reducir el riesgo. Se aplican a toda la organización
 
 ## Clasificacion de controles
 
@@ -133,3 +133,89 @@ el software nace con el objetivo de mejorar, optimizar o automatizar procesos
 - Correctivos: Corrigen un riesgo
 
 > Riesgo = Probabilidad \* Impacto
+
+Los controles se aprueban en 2 etapas:
+
+- Efectividad del diseño del control
+
+  El diseño de un control esta en su formalización documentada, pueden ser politicas, procedimientos, normas, circulares, flujogramas, etc.
+
+- Efectividad de la operación del control:
+
+  Es la operativa del control, si funciona bien, si cumple sus objetivos y si es adecuado al tamaño y operaciones de negocio
+
+> Si un control cuenta con un diseño efectivo esto no garantiza la efectividad operativa de los controles. sin embargo, si el diseño de un control no es efectivo, el contorl tampoco efectivo operativamente.
+
+La ISO 27002 es una norma que establece controles de seguridad de la informacion
+
+## 5 Dominios de los controles generales de TI
+
+> Aplican a toda la organización
+
+> se evaluan en 2 etapas: diseño y operación
+> diseño: formalización documentada
+> operación: si funciona bien, si cumple sus objetivos y si es adecuado al tamaño y operaciones de negocio
+
+### Planificación y organización
+
+- organigramas
+- Comites operativos de TI
+
+### Acceso a programas y datos
+
+- Seguridad de la informacion
+- Segregacion de funciones
+- Principio de menor privilegio
+
+### Cambios a programas
+
+- Se manejan solicitudes de cambios (quien lo solicita, quien lo aprueba, quien lo realiza)
+
+### Desarrollo de sistemas de información
+
+-
+
+### Operacion de computadora
+
+- administracion de incidentes (registro de incidentes clasificados por criticidad)
+
+---
+
+# Unidad 4: Evaluación de controles de aplicación
+
+> Son contorles manuales y/o automaticos que se encargan de verificar que la informacion correspondiente a un proceso o sistema especifico cumla con distintos criterior o **requerimientos del negocio para la información**
+> esto con el fin garantizar el cumplimiento de los objetivos de dichos sistemas o procesos
+
+criterios que determinan el criterio de **seguridad de la información**
+
+1. Efectividad
+2. Eficiencia
+3. Confidencialidad
+4. Integridad
+5. Disponibilidad
+6. Cumplimiento
+7. Confiabilidad
+
+## Ciclo de vida de los controles de aplicación
+
+## Propiedades de los controles de aplicacion
+
+tipos de controles de aplicacion
+
+- Manuales
+  - Autorizaciones escritas, como firmas en cheques
+  - Reconciliacion de ordenes de compra con los formatos de recepcion de mercancias.
+- Automaticos
+  - Validaciones de edicion y contenido de datos de entrada.
+  - Digitos verificadores para validar numeros de cuenta.
+- Hibridos
+  - El proceso de llenado de ordenes de embarque puede incluir un control donde el gerente de embarques revisa un reporte de ordenes no embarcadas.
+    Para que este control esa efectiva, la actividad automatizada asi como la manula son necesarias.
+- Configurables -> Controles automatizados dependientes de la configuracion de parametros dentro de la aplicacion
+  - Ejemplo: Un control que valida que el monto de una factura no exceda el limite de credito del cliente
+
+## Atributos de los contorles de aplicacion
+
+1. Frecuencia del control
+2. Proximidad del control al evento de riesgo
+3. Ejecucion de la actividad de control
